@@ -1,0 +1,1000 @@
+ 1261  ;s
+ 1262  ls
+ 1263  cd ecopad/
+ 1264  ls
+ 1265  cd run/
+ 1266  ls
+ 1267  vi cybercom_up 
+ 1268  sudo apt install docker.io
+ 1269  docker images
+ 1270  sudo docker images
+ 1271  sudo apt intall python-pip
+ 1272  sudo apt install python-pip
+ 1273  sudo docker groupadd docker
+ 1274  sudo groupadd docker
+ 1275  sudo usermod -aG docker vova
+ 1276  sg docker-c "bash"
+ 1277  sg docker -c "bash"
+ 1278  pip install cookiecutter
+ 1279  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1280  ls
+ 1281  rm someapp
+ 1282  rm -f someapp
+ 1283  rm -fr someapp
+ 1284  ls
+ 1285  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1286  cd someapp/api_code/
+ 1287  docker build -t api .
+ 1288  cd ..
+ 1289  ./run/cybercom_up
+ 1290  docker images
+ 1291  docker ps
+ 1292  docker images
+ 1293  la
+ 1294  ls
+ 1295  pwd
+ 1296  cd ./run/
+ 1297  ls
+ 1298  ./appContainerKill 
+ 1299  ./cybercom_up 
+ 1300  sudo ./cybercom_up 
+ 1301  ./appContainerKill 
+ 1302  sudo ./appContainerKill 
+ 1303  sudo ./cybercom_up 
+ 1304  cd 
+ 1305  cookiecutter $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1306  $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1307  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1308  ls
+ 1309  rm -rf someapp/
+ 1310  pwd
+ 1311  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1312  cd someapp/
+ 1313  ls
+ 1314  cd run/
+ 1315  ks
+ 1316  ls
+ 1317  ./appContainerKill 
+ 1318  groups
+ 1319  group
+ 1320  groups
+ 1321  docker ps
+ 1322  ls -l
+ 1323  cd ~/.docker/
+ 1324  cd 
+ 1325  ls -l  | grep docker
+ 1326  ls -l .docker/
+ 1327  ls -al | grep docerk
+ 1328  ls -al | grep docker
+ 1329  man chmod
+ 1330  chown -R vova .docker 
+ 1331  sudo chown -R vova .docker 
+ 1332  ls -al | grep docker
+ 1333  docker images
+ 1334  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1335  la
+ 1336  docker ps
+ 1337  ls
+ 1338  rm -fr someapp/
+ 1339  rm -rf someapp/
+ 1340  ls
+ 1341  sudo rm -rf someapp/
+ 1342  ls
+ 1343  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1344  ls
+ 1345  cd someapp/
+ 1346  ls
+ 1347  cd run/
+ 1348  ls
+ 1349  ./appContainerKill 
+ 1350  ./cybercom_up 
+ 1351  docker ps
+ 1352  pwd
+ 1353  ifconfig
+ 1354  ifconfig | liss
+ 1355  ifconfig | less
+ 1356  ls
+ 1357  vi cybercom_up 
+ 1358  nano cybercom_up 
+ 1359  ifconfig | less
+ 1360  nano cybercom_up 
+ 1361  ls
+ 1362  ifconfig | less
+ 1363  ls
+ 1364  cd
+ 1365  ls
+ 1366  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1367  ls
+ 1368  cd ecopad/
+ 1369  ls
+ 1370  cd run/
+ 1371  ls
+ 1372  nano cybercom_up
+ 1373  ./appContainerKill
+ 1374  ..
+ 1375  cd ..
+ 1376  ls
+ 1377  cd ./api_code/
+ 1378  ls
+ 1379  docker build -t api .
+ 1380  cd ..
+ 1381  cd ./run/
+ 1382  ls
+ 1383  ./cybercom_up
+ 1384  docker images
+ 1385  docker ps
+ 1386  docker stop 
+ 1387  docker rm
+ 1388  docker rm dbb
+ 1389  docker rm 1e2
+ 1390  docker rm -f 1e2
+ 1391  docker rm -f 4ef7
+ 1392  ./cybercom_up
+ 1393  docker images
+ 1394  docker rm -f bc7
+ 1395  docker rm -f bc7fa
+ 1396  docker images
+ 1397  docker rm 1d4
+ 1398  docker ps
+ 1399  cd
+ 1400  cd ./some
+ 1401  cd ./someapp/
+ 1402  ps
+ 1403  ls
+ 1404  cd ./run
+ 1405  ls
+ 1406  ./appContainerKill 
+ 1407  cd
+ 1408  ecopad/
+ 1409  ls
+ 1410  cd ./ecopad/
+ 1411  ls
+ 1412  cd ./run/
+ 1413  ks
+ 1414  ls
+ 1415  ./appContainerKill 
+ 1416  cd ..
+ 1417  ls
+ 1418  cd ./api_code/
+ 1419  ls
+ 1420  docerk build -t api .
+ 1421  docker build -t api .
+ 1422  cd ..
+ 1423  ks
+ 1424  ls
+ 1425  cd ./run/
+ 1426  ./cybercom_up
+ 1427  git clone https://github.com/ou-ecolab/ecopad_portal
+ 1428  git clone https://github.com/ou-ecolab/teco_spruce
+ 1429  git clone https://github.com/ou-ecolab/teco_spruce_viz
+ 1430  scp -r vova@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1431  scp -r admin@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1432  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1433  docker build -t teco_spruce .
+ 1434  ls
+ 1435  cd ./teco_spruce
+ 1436  ls
+ 1437  docker build -t teco_spruce .
+ 1438  ls
+ 1439  cd ..
+ 1440  cd ./teco_spruce_viz/
+ 1441  docker build -t ecopad_r .
+ 1442  cd ..
+ 1443  ls
+ 1444  cd ..
+ 1445  ls
+ 1446  cd ./data/
+ 1447  ls
+ 1448  cd ./local/
+ 1449  ls
+ 1450  mkdir spruce_data
+ 1451  cp -r ../../../teco_spruce/input/* .
+ 1452  ls
+ 1453  cd ../
+ 1454  ls
+ 1455  cd .
+ 1456  cd ..
+ 1457  ls
+ 1458  cd ..
+ 1459  ls
+ 1460  cd ./ecopad/
+ 1461  ls
+ 1462  cd ./data/
+ 1463  ls
+ 1464  cd ./local/
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  cd ..
+ 1469  ls
+ 1470  cd ./run
+ 1471  ls
+ 1472  cd ./teco_spruce
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  cd ./data/
+ 1477  ls
+ 1478  cd ./local/
+ 1479  cd ls
+ 1480  la
+ 1481  ls
+ 1482  cd ./spruce_data/
+ 1483  ls
+ 1484  cp -r ../../../teco_spruce/input/* .
+ 1485  cd ..
+ 1486  cp -r ../../../teco_spruce/input/* .
+ 1487  cd ./spruce_data/
+ 1488  ls
+ 1489  cp -r ../../../run/teco_spruce/input/* .
+ 1490  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/data/local/spruce_data/initial.txt .
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  cd ..
+ 1497  ls
+ 1498  cd config/
+ 1499  ls
+ 1500  cd celery/
+ 1501  ls
+ 1502  cd code/
+ 1503  ls
+ 1504  cat requirements.txt 
+ 1505  cd ..
+ 1506  ls
+ 1507  cd ..
+ 1508  ls
+ 1509  cd..
+ 1510  cd ..
+ 1511  ls
+ 1512  cd run/
+ 1513  ls
+ 1514  docker ps
+ 1515  cd ..
+ 1516  ls
+ 1517  cd log/
+ 1518  ls
+ 1519  cd ..
+ 1520  ls
+ 1521  cd run/
+ 1522  ls
+ 1523  docker log ecopad_celery
+ 1524  docker logs ecopad_celery
+ 1525  ls
+ 1526  pwd
+ 1527  nano cybercom_up
+ 1528  pwd
+ 1529  ls
+ 1530  ./appContainerKill
+ 1531  ./cybercom_up
+ 1532  ls
+ 1533  cd ..
+ 1534  ls
+ 1535  cd ./config/
+ 1536  ls
+ 1537  cd ./celery/
+ 1538  ls
+ 1539  mkdir env
+ 1540  ls
+ 1541  cd ..
+ 1542  ls
+ 1543  cd ./celery/
+ 1544  ls
+ 1545  cd ./code/
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd data/
+ 1554  ls
+ 1555  cd static/
+ 1556  ls
+ 1557  cd portal/
+ 1558  ls
+ 1559  cd ..
+ 1560  ls
+ 1561  mkdir ecopad_tasks
+ 1562  cd ecopad_tasks/
+ 1563  mkdir default
+ 1564  cd default/
+ 1565  ls
+ 1566  cp ../../../../run/output/Paraest.txt
+ 1567  cp ../../../../run/teco_spruce/output/Paraest.txt
+ 1568  ls
+ 1569  ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1570  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1571  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt .
+ 1572  cp ../../../../run/teco_spruce/output/
+ 1573  cp ../../../../run/teco_spruce/output/Paraest.txt .
+ 1574  sudo apt-get update
+ 1575  sudo apt_get install openssh-server
+ 1576  sudo apt-get install openssh-server
+ 1577  sudo ufw allow22
+ 1578  sudo ufw allow 22
+ 1579  ssh-keygen
+ 1580  cat id_rsa.pub > authorized_keys
+ 1581  cat /home/vova/.ssh/id_rsa.pub > authorized_keys
+ 1582  ls
+ 1583  cd ..
+ 1584  cd ./run/
+ 1585  ls
+ 1586  nano cybercom_up
+ 1587  ./docker_restart
+ 1588  ls
+ 1589  ./appContainerKill
+ 1590  ./cybercom_up
+ 1591  ./appContainerKill
+ 1592  nano cybercom_up
+ 1593  ./appContainerKill
+ 1594  nano cybercom_up
+ 1595  ./cybercom_up
+ 1596  ./appContainerKill
+ 1597  nano cybercom_up
+ 1598  ./appContainerKill
+ 1599  ./cybercom_up
+ 1600  ./appContainerKill
+ 1601  nano cybercom_up
+ 1602  ./cybercom_up
+ 1603  ./appContainerKill
+ 1604  nano cybercom_up
+ 1605  ./cybercom_up
+ 1606  ./appContainerKill
+ 1607  ./cybercom_up
+ 1608  ./appContainerKill
+ 1609  nano cybercom_up
+ 1610  ./cybercom_up
+ 1611  ./appContainerKill
+ 1612  nano cybercom_up
+ 1613  ./cybercom_up
+ 1614  ./appContainerKill
+ 1615  nano cybercom_up
+ 1616  ./cybercom_up
+ 1617  ./appContainerKill
+ 1618  nano cybercom_up
+ 1619  ./cybercom_up
+ 1620  ./appContainerKill
+ 1621  ./cybercom_up
+ 1622  ./appContainerKill
+ 1623  nano cybercom_up
+ 1624  ./appContainerKill
+ 1625  nano cybercom_up
+ 1626  ./cybercom_up
+ 1627  ./appContainerKill
+ 1628  ./cybercom_up
+ 1629  ./appContainerKill
+ 1630  nano cybercom_up
+ 1631  ./appContainerKill
+ 1632  nano cybercom_up
+ 1633  ./cybercom_up
+ 1634  ./appContainerKill
+ 1635  ./cybercom_up
+ 1636  ./appContainerKill
+ 1637  nano cybercom_up
+ 1638  ./cybercom_up
+ 1639  ./appContainerKill
+ 1640  nano cybercom_up
+ 1641  ./appContainerKill
+ 1642  ./cybercom_up
+ 1643  ./appContainerKill
+ 1644  ./cybercom_up
+ 1645  ./appContainerKill
+ 1646  nano cybercom_up
+ 1647  ./cybercom_up
+ 1648  ./appContainerKill
+ 1649  nano cybercom_up
+ 1650  ./appContainerKill
+ 1651  ./cybercom_up
+ 1652  ./appContainerKill
+ 1653  nano cybercom_up
+ 1654  ./cybercom_up
+ 1655  ./appContainerKill
+ 1656  nano cybercom_up
+ 1657  ./appContainerKill
+ 1658  ./cybercom_up
+ 1659  ./appContainerKill
+ 1660  nano cybercom_up
+ 1661  ./cybercom_up
+ 1662  ./appContainerKill
+ 1663  nano cybercom_up
+ 1664  ./cybercom_up
+ 1665  ./appContainerKill
+ 1666  nano cybercom_up
+ 1667  ./cybercom_up
+ 1668  ./appContainerKill
+ 1669  nano cybercom_up
+ 1670  ./appContainerKill
+ 1671  ./cybercom_up
+ 1672  ./appContainerKill
+ 1673  ./cybercom_up
+ 1674  ./appContainerKill
+ 1675  nano cybercom_up
+ 1676  ./cybercom_up
+ 1677  ./appContainerKill
+ 1678  nano cybercom_up
+ 1679  vi cybercom_up
+ 1680  nano cybercom_up
+ 1681  ./appContainerKill
+ 1682  ./cybercom_up
+ 1683  ./appContainerKill
+ 1684  nano cybercom_up
+ 1685  ./cybercom_up
+ 1686  ./appContainerKill
+ 1687  nano cybercom_up
+ 1688  ./cybercom_up
+ 1689  nano cybercom_up
+ 1690  ./appContainerKill
+ 1691  ./cybercom_up
+ 1692  ./appContainerKill
+ 1693  nano cybercom_up
+ 1694  ./appContainerKill
+ 1695  ./cybercom_up
+ 1696  ./appContainerKill
+ 1697  nano cybercom_up
+ 1698  ./appContainerKill
+ 1699  ./cybercom_up
+ 1700  ls
+ 1701  cd ..
+ 1702  ls
+ 1703  cd config/
+ 1704  ls
+ 1705  cd celery/
+ 1706  ls
+ 1707  cd env/
+ 1708  ls
+ 1709  s
+ 1710  ls
+ 1711  cd ..
+ 1712  ls
+ 1713  cd ..
+ 1714  ls
+ 1715  cd ..
+ 1716  ls
+ 1717  cd ./run/
+ 1718  ls
+ 1719  nano cybercom_up 
+ 1720  ./appContainerKill
+ 1721  ./cybercom_up
+ 1722  ls
+ 1723  cd ..
+ 1724  ls
+ 1725  cd ./config/
+ 1726  ls
+ 1727  cd celery/
+ 1728  ls
+ 1729  cd env/
+ 1730  ls
+ 1731  cd ./lib/python2.7/site-packages/ecopadq/tasks/
+ 1732  nano config.py
+ 1733  sudo nano config.py
+ 1734  ls
+ 1735  sudo nano config.py
+ 1736  ifconfig
+ 1737  ifconfig | less
+ 1738  ssh -l saru0000 ecolab.oscer.ou.edu
+ 1739  cd ./ecopad/config/celery/code
+ 1740  ls
+ 1741  nano requirements.txt 
+ 1742  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "5.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "500", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.3", "Tau_C": "5.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1743  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "7.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "300", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.5", "Tau_C": "8.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1744  ../
+ 1745  cd ..
+ 1746  ls
+ 1747  grep -I "teco_spruce_data_assimilation"
+ 1748  grep -R "teco_spruce_data_assimilation"
+ 1749  ls
+ 1750  cd run/
+ 1751  ls
+ 1752  ./appContainerKill 
+ 1753  ./example_code_mip/
+ 1754  ./cybercom_up
+ 1755  ls
+ 1756  ./appContainerKill 
+ 1757  ./cybercom_up
+ 1758  ./appContainerKill 
+ 1759  ./cybercom_up
+ 1760  ./appContainerKill 
+ 1761  ./cybercom_up
+ 1762  ./appContainerKill 
+ 1763  ./cybercom_up
+ 1764  ./appContainerKill 
+ 1765  ./cybercom_up
+ 1766  ./appContainerKill 
+ 1767  ./cybercom_up
+ 1768  ./appContainerKill 
+ 1769  ./cybercom_up
+ 1770  ./appContainerKill 
+ 1771  ./cybercom_up
+ 1772  ./appContainerKill 
+ 1773  ./cybercom_up
+ 1774  ./appContainerKill 
+ 1775  ./cybercom_up
+ 1776  ./appContainerKill 
+ 1777  ./cybercom_up
+ 1778  ./appContainerKill 
+ 1779  ./cybercom_up
+ 1780  ./appContainerKill 
+ 1781  ./cybercom_up
+ 1782  ./appContainerKill 
+ 1783  ./cybercom_up
+ 1784  ./appContainerKill 
+ 1785  ./cybercom_up
+ 1786  ./appContainerKill 
+ 1787  ./cybercom_up
+ 1788  ./appContainerKill 
+ 1789  ./cybercom_up
+ 1790  ./appContainerKill 
+ 1791  ./cybercom_up
+ 1792  ./appContainerKill 
+ 1793  ./cybercom_up
+ 1794  ./appContainerKill 
+ 1795  ./cybercom_up
+ 1796  ./appContainerKill 
+ 1797  ./cybercom_up
+ 1798  ./appContainerKill 
+ 1799  ./cybercom_up
+ 1800  ./appContainerKill 
+ 1801  ./cybercom_up
+ 1802  ./appContainerKill 
+ 1803  ./cybercom_up
+ 1804  ./appContainerKill 
+ 1805  ./cybercom_up
+ 1806  ./appContainerKill 
+ 1807  ./cybercom_up
+ 1808  ./appContainerKill 
+ 1809  ./cybercom_up
+ 1810  ./appContainerKill 
+ 1811  ./cybercom_up
+ 1812  ./appContainerKill 
+ 1813  ./cybercom_up
+ 1814  ./appContainerKill 
+ 1815  ./cybercom_up
+ 1816  ls
+ 1817  ./appContainerKill 
+ 1818  ./cybercom_up
+ 1819  docker images
+ 1820  docker ps
+ 1821  docker images
+ 1822  ./appContainerKill 
+ 1823  docker images
+ 1824  docker run -it teco_spruce
+ 1825  docker run -it ecopad_r
+ 1826  docker images
+ 1827  docker ps
+ 1828  docker psw
+ 1829  docker ps -a
+ 1830  ./appContainerKill 
+ 1831  ./cybercom_up
+ 1832  docker ps
+ 1833  docker ps -a
+ 1834  ./appContainerKill 
+ 1835  ./cybercom_up
+ 1836  docker ps
+ 1837  docker ps -a
+ 1838  docker ps
+ 1839  docker images
+ 1840  docker run -it new_task /bin/bash
+ 1841  docker run -it teco_spruce /bin/bash
+ 1842  docker run -it ecopad_r /bin/bash
+ 1843  docker run -it new_task /bin/bash
+ 1844  docker run -it ecopad_r /bin/bash
+ 1845  docker ps -a
+ 1846  docker run -it teco_spruce ./teco_spruce /bin/b
+ 1847  docker run -it teco_spruce ./teco_spruce /bin/bash
+ 1848  ./appContainerKill 
+ 1849  ./cybercom_up
+ 1850  ls
+ 1851  cd teco_spruce
+ 1852  ls
+ 1853  nano Dockerfile 
+ 1854  cd ..
+ 1855  ls
+ 1856  docker images
+ 1857  docker rm 749
+ 1858  ls
+ 1859  docker ps
+ 1860  docker ps -a
+ 1861  ./appContainerKill 
+ 1862  ./cybercom_up
+ 1863  ./appContainerKill 
+ 1864  ./cybercom_up
+ 1865  ./appContainerKill 
+ 1866  ./cybercom_up
+ 1867  ./appContainerKill 
+ 1868  ./cybercom_up
+ 1869  ./appContainerKill 
+ 1870  ./cybercom_up
+ 1871  ./appContainerKill 
+ 1872  ./cybercom_up
+ 1873  docker images
+ 1874  ls
+ 1875  cd example_code_mip/
+ 1876  ls
+ 1877  docker build -t .
+ 1878  docker build -t newtask2 .
+ 1879  cd ..
+ 1880  ls
+ 1881  docker images
+ 1882  ./appContainerKill 
+ 1883  ./cybercom_up
+ 1884  ls
+ 1885  docker ps -a
+ 1886  docerk run -it new_task /bin/bash
+ 1887  docker run -it new_task /bin/bash
+ 1888  ./appContainerKill 
+ 1889  ./cybercom_up
+ 1890  docker run -it new_task /bin/bash
+ 1891  ./appContainerKill 
+ 1892  ./cybercom_up
+ 1893  ./appContainerKill 
+ 1894  ./cybercom_up
+ 1895  docker images
+ 1896  docker build -t new_task2 .
+ 1897  ls
+ 1898  cd example_code_mip/
+ 1899  ls
+ 1900  docker build -t new_task2 .
+ 1901  ls
+ 1902  cd ..
+ 1903  ls
+ 1904  docker run -it new_task2
+ 1905  ls
+ 1906  ./appContainerKill 
+ 1907  ./cybercom_up
+ 1908  ./appContainerKill 
+ 1909  ./cybercom_up
+ 1910  ./appContainerKill 
+ 1911  ./cybercom_up
+ 1912  ./appContainerKill 
+ 1913  ./cybercom_up
+ 1914  ./appContainerKill 
+ 1915  ./cybercom_up
+ 1916  ./appContainerKill 
+ 1917  ./cybercom_up
+ 1918  ./appContainerKill 
+ 1919  ./cybercom_up
+ 1920  ./appContainerKill
+ 1921  ./cybercom_up
+ 1922  ./appContainerKill
+ 1923  ./cybercom_up
+ 1924  ./appContainerKill
+ 1925  ./cybercom_up
+ 1926  ./appContainerKill
+ 1927  ./cybercom_up
+ 1928  ./appContainerKill
+ 1929  ./cybercom_up
+ 1930  ./appContainerKill
+ 1931  ./cybercom_up
+ 1932  ./appContainerKill
+ 1933  ./cybercom_up
+ 1934  ./appContainerKill
+ 1935  ./cybercom_up
+ 1936  ./appContainerKill
+ 1937  ./cybercom_up
+ 1938  ./appContainerKill
+ 1939  ./cybercom_up
+ 1940  docker images
+ 1941  ./appContainerKill
+ 1942  docker images
+ 1943  ./cybercom_up
+ 1944  docker images
+ 1945  ./appContainerKill
+ 1946  ./cybercom_up
+ 1947  ./appContainerKill
+ 1948  ./cybercom_up
+ 1949  ./appContainerKill
+ 1950  ./cybercom_up
+ 1951  ./appContainerKill
+ 1952  ./cybercom_up
+ 1953  ./appContainerKill
+ 1954  ./cybercom_up
+ 1955  ./appContainerKill
+ 1956  ./cybercom_up
+ 1957  ./appContainerKill
+ 1958  ./cybercom_up
+ 1959  ./appContainerKill
+ 1960  ./cybercom_up
+ 1961  ./appContainerKill
+ 1962  ./cybercom_up
+ 1963  ./appContainerKill
+ 1964  ./cybercom_up
+ 1965  ./appContainerKill
+ 1966  ./cybercom_up
+ 1967  ./appContainerKill
+ 1968  ./cybercom_up
+ 1969  ./appContainerKill
+ 1970  ./cybercom_up
+ 1971  ./appContainerKill
+ 1972  ./cybercom_up
+ 1973  ./appContainerKill
+ 1974  ./cybercom_up
+ 1975* 
+ 1976  ./cybercom_up
+ 1977  ./appContainerKill
+ 1978  ./cybercom_up
+ 1979  ./appContainerKill
+ 1980  ./cybercom_up
+ 1981  ./appContainerKill
+ 1982  ./cybercom_up
+ 1983  ./appContainerKill
+ 1984  ./cybercom_up
+ 1985  ./appContainerKill
+ 1986  ./cybercom_up
+ 1987  ./appContainerKill
+ 1988  ./cybercom_up
+ 1989  ./appContainerKill
+ 1990  ./cybercom_up
+ 1991  ./appContainerKill
+ 1992  ./cybercom_up
+ 1993  ./appContainerKill
+ 1994  ./cybercom_up
+ 1995  ./appContainerKill
+ 1996  ./cybercom_up
+ 1997  ./appContainerKill
+ 1998  ./cybercom_up
+ 1999  ./appContainerKill
+ 2000  docker ps
+ 2001  docker ps -a
+ 2002  ls
+ 2003  ./appContainerKill
+ 2004  ./cybercom_up
+ 2005  ./appContainerKill
+ 2006  ./cybercom_up
+ 2007  ./appContainerKill
+ 2008  ./cybercom_up
+ 2009  ./appContainerKill
+ 2010  ./cybercom_up
+ 2011  ./appContainerKill
+ 2012  ./cybercom_up
+ 2013  ./appContainerKill
+ 2014  ./cybercom_up
+ 2015  ./appContainerKill
+ 2016  ./cybercom_up
+ 2017  ./appContainerKill
+ 2018  ./cybercom_up
+ 2019  ./appContainerKill
+ 2020  ./cybercom_up
+ 2021  ./appContainerKill
+ 2022  ./cybercom_up
+ 2023  ./appContainerKill
+ 2024  ./cybercom_up
+ 2025  ./appContainerKill
+ 2026  ./cybercom_up
+ 2027  ./appContainerKill
+ 2028  ./cybercom_up
+ 2029  ./appContainerKill
+ 2030  ./cybercom_up
+ 2031  ./appContainerKill
+ 2032  ./cybercom_up
+ 2033  ./appContainerKill
+ 2034  ./cybercom_up
+ 2035  ./appContainerKill
+ 2036  ./cybercom_up
+ 2037  ./appContainerKill
+ 2038  ./cybercom_up
+ 2039  ./appContainerKill
+ 2040  ./cybercom_up
+ 2041  ./appContainerKill
+ 2042  ./cybercom_up
+ 2043  ./appContainerKill
+ 2044  ./cybercom_up
+ 2045  ./appContainerKill
+ 2046  ./cybercom_up
+ 2047  ./appContainerKill
+ 2048  ./cybercom_up
+ 2049  ./appContainerKill
+ 2050  ./cybercom_up
+ 2051  ./appContainerKill
+ 2052  ./cybercom_up
+ 2053  ./appContainerKill
+ 2054  ./cybercom_up
+ 2055  ./appContainerKill
+ 2056  ./cybercom_up
+ 2057  ./appContainerKill
+ 2058  ./cybercom_up
+ 2059  ./appContainerKill
+ 2060  ./cybercom_up
+ 2061  ./appContainerKill
+ 2062  ./cybercom_up
+ 2063  ./appContainerKill
+ 2064  ./cybercom_up
+ 2065  ./appContainerKill
+ 2066  ./cybercom_up
+ 2067  ./appContainerKill
+ 2068  ./cybercom_up
+ 2069  ./appContainerKill
+ 2070  ./cybercom_up
+ 2071  ./appContainerKill
+ 2072  ./cybercom_up
+ 2073  ./appContainerKill
+ 2074  ./cybercom_up
+ 2075  ./appContainerKill
+ 2076  ./cybercom_up
+ 2077  ./appContainerKill
+ 2078  ./cybercom_up
+ 2079  ./appContainerKill
+ 2080  ./cybercom_up
+ 2081  ./appContainerKill
+ 2082  ./cybercom_up
+ 2083  ./appContainerKill
+ 2084  ./cybercom_up
+ 2085  ./appContainerKill
+ 2086  ./cybercom_up
+ 2087  ./appContainerKill
+ 2088  ./cybercom_up
+ 2089  ./appContainerKill
+ 2090  ./cybercom_up
+ 2091  ./appContainerKill
+ 2092  ./cybercom_up
+ 2093  ./appContainerKill
+ 2094  ./cybercom_up
+ 2095  ./appContainerKill
+ 2096  ./cybercom_up
+ 2097  ./appContainerKill
+ 2098  ./cybercom_up
+ 2099  ./appContainerKill
+ 2100  ./cybercom_up
+ 2101  ./appContainerKill
+ 2102  ./cybercom_up
+ 2103  ./appContainerKill
+ 2104  ./cybercom_up
+ 2105  ./appContainerKill
+ 2106  ./cybercom_up
+ 2107  ./appContainerKill
+ 2108  ./cybercom_up
+ 2109  ./appContainerKill
+ 2110  ./cybercom_up
+ 2111  ./appContainerKill
+ 2112  ./cybercom_up
+ 2113  ./appContainerKill
+ 2114  ./cybercom_up
+ 2115  ./appContainerKill
+ 2116  ./cybercom_up
+ 2117  ./appContainerKill
+ 2118  ./cybercom_up
+ 2119  ./appContainerKill
+ 2120  ./cybercom_up
+ 2121  ./appContainerKill
+ 2122  ./cybercom_up
+ 2123  ./appContainerKill
+ 2124  ./cybercom_up
+ 2125  ./appContainerKill
+ 2126  ./cybercom_up
+ 2127  ./appContainerKill
+ 2128  ./cybercom_up
+ 2129  ./appContainerKill
+ 2130  ./cybercom_up
+ 2131  ./appContainerKill
+ 2132  ./cybercom_up
+ 2133  ./appContainerKill
+ 2134  ./cybercom_up
+ 2135  ./appContainerKill
+ 2136  ./cybercom_up
+ 2137  ./appContainerKill
+ 2138  ./cybercom_up
+ 2139  ./appContainerKill
+ 2140  ./cybercom_up
+ 2141  ./appContainerKill
+ 2142  ./cybercom_up
+ 2143  ./appContainerKill
+ 2144  ./cybercom_up
+ 2145  ./appContainerKill
+ 2146  ./cybercom_up
+ 2147  ./appContainerKill
+ 2148  ./cybercom_up
+ 2149  ./appContainerKill
+ 2150  ./cybercom_up
+ 2151  ./appContainerKill
+ 2152  ./cybercom_up
+ 2153  ./appContainerKill
+ 2154  ./cybercom_up
+ 2155  ./appContainerKill
+ 2156  ./cybercom_up
+ 2157  ./appContainerKill
+ 2158  ./cybercom_up
+ 2159  ./appContainerKill
+ 2160  ./cybercom_up
+ 2161  ./appContainerKill
+ 2162  ./cybercom_up
+ 2163  ./appContainerKill
+ 2164  ./cybercom_up
+ 2165  ./appContainerKill
+ 2166  ./cybercom_up
+ 2167  ./appContainerKill
+ 2168  ./cybercom_up
+ 2169  ./appContainerKill
+ 2170  ./cybercom_up
+ 2171  ./appContainerKill
+ 2172  ./cybercom_up
+ 2173  ./appContainerKill
+ 2174  ./cybercom_up
+ 2175  ./appContainerKill
+ 2176  ./cybercom_up
+ 2177  ./appContainerKill
+ 2178  ./cybercom_up
+ 2179  ./appContainerKill
+ 2180  ./cybercom_up
+ 2181  ./appContainerKill
+ 2182  ./cybercom_up
+ 2183  ./appContainerKill
+ 2184  ./cybercom_up
+ 2185  ./appContainerKill
+ 2186  ./cybercom_up
+ 2187  ./appContainerKill
+ 2188  ./cybercom_up
+ 2189  ./appContainerKill
+ 2190  ./cybercom_up
+ 2191  ./appContainerKill
+ 2192  ./cybercom_up
+ 2193  ./appContainerKill
+ 2194  ./cybercom_up
+ 2195  ./appContainerKill
+ 2196  ./cybercom_up
+ 2197  ./appContainerKill
+ 2198  ./cybercom_up
+ 2199  ./appContainerKill
+ 2200  ./cybercom_up
+ 2201  ./appContainerKill
+ 2202  ./cybercom_up
+ 2203  ./appContainerKill
+ 2204  ./cybercom_up
+ 2205  ./appContainerKill
+ 2206  ./cybercom_up
+ 2207  ./appContainerKill
+ 2208  ./cybercom_up
+ 2209  ./appContainerKill
+ 2210  ./cybercom_up
+ 2211  ./appContainerKill
+ 2212  ./cybercom_up
+ 2213  ./appContainerKill
+ 2214  ./cybercom_up
+ 2215  ./appContainerKill
+ 2216  ./cybercom_up
+ 2217  ./appContainerKill
+ 2218  ./cybercom_up
+ 2219  ./appContainerKill
+ 2220  ./cybercom_up
+ 2221  ./appContainerKill
+ 2222  ./cybercom_up
+ 2223  ./appContainerKill
+ 2224  ./cybercom_up
+ 2225  ./appContainerKill
+ 2226  ./cybercom_up
+ 2227  ./appContainerKill
+ 2228  ./cybercom_up
+ 2229  ./appContainerKill
+ 2230  ./cybercom_up
+ 2231  ls
+ 2232  nano cybercom_up
+ 2233  cd ..
+ 2234  cd config/celery/code/
+ 2235  ls
+ 2236  vi requirements.txt 
+ 2237  vi celeryconfig.py
+ 2238  cd ../../../
+ 2239  ls
+ 2240  docker logs
+ 2241  docker ps -a
+ 2242  docker ps -a | head -1
+ 2243  docker ps -a | head -2
+ 2244  docker logs ab37 | tail 5
+ 2245  docker logs ab37
+ 2246  docker ps -a | head -2
+ 2247  docker logs 7639
+ 2248  history
+ 2249  ls
+ 2250  pwd
+ 2251  cd READMEfiles/
+ 2252  ls
+ 2253  mkdir historyfiles
+ 2254  ls
+ 2255  cd historyfiles/
+ 2256  history > w1history
+ 2257  ls
+ 2258  rm w1history 
+ 2259  ls
+ 2260  history > w1history.txt

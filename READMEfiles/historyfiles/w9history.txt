@@ -1,0 +1,1000 @@
+ 1023  ./appContainerKill 
+ 1024  ./cybercom_up 
+ 1025  docker ps
+ 1026  ls
+ 1027  cd ..
+ 1028  ls
+ 1029  cd data/
+ 1030  ls
+ 1031  cd static/
+ 1032  ls
+ 1033  git clone https://github.com/ou-ecolab/ecopad_portal.git
+ 1034  cd
+ 1035  ls
+ 1036  cd .ssh
+ 1037  ls
+ 1038  cat id_rsa.pub >authorized_keys
+ 1039  ls
+ 1040  ls -ltra
+ 1041  cd 
+ 1042  cd ecopad/
+ 1043  ls
+ 1044  cd run/
+ 1045  ;ls
+ 1046  ls
+ 1047  nano cybercom_up 
+ 1048  ls -ltra
+ 1049  cd .ssh
+ 1050  ls
+ 1051  cd ..
+ 1052  ;s
+ 1053  ls
+ 1054  cd ecopad/
+ 1055  ls
+ 1056  cd run/
+ 1057  ls
+ 1058  vi cybercom_up 
+ 1059  sudo apt install docker.io
+ 1060  docker images
+ 1061  sudo docker images
+ 1062  sudo apt intall python-pip
+ 1063  sudo apt install python-pip
+ 1064  sudo docker groupadd docker
+ 1065  sudo groupadd docker
+ 1066  sudo usermod -aG docker vova
+ 1067  sg docker-c "bash"
+ 1068  sg docker -c "bash"
+ 1069  pip install cookiecutter
+ 1070  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1071  ls
+ 1072  rm someapp
+ 1073  rm -f someapp
+ 1074  rm -fr someapp
+ 1075  ls
+ 1076  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1077  cd someapp/api_code/
+ 1078  docker build -t api .
+ 1079  cd ..
+ 1080  ./run/cybercom_up
+ 1081  docker images
+ 1082  docker ps
+ 1083  docker images
+ 1084  la
+ 1085  ls
+ 1086  pwd
+ 1087  cd ./run/
+ 1088  ls
+ 1089  ./appContainerKill 
+ 1090  ./cybercom_up 
+ 1091  sudo ./cybercom_up 
+ 1092  ./appContainerKill 
+ 1093  sudo ./appContainerKill 
+ 1094  sudo ./cybercom_up 
+ 1095  cd 
+ 1096  cookiecutter $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1097  $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1098  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1099  ls
+ 1100  rm -rf someapp/
+ 1101  pwd
+ 1102  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1103  cd someapp/
+ 1104  ls
+ 1105  cd run/
+ 1106  ks
+ 1107  ls
+ 1108  ./appContainerKill 
+ 1109  groups
+ 1110  group
+ 1111  groups
+ 1112  docker ps
+ 1113  ls -l
+ 1114  cd ~/.docker/
+ 1115  cd 
+ 1116  ls -l  | grep docker
+ 1117  ls -l .docker/
+ 1118  ls -al | grep docerk
+ 1119  ls -al | grep docker
+ 1120  man chmod
+ 1121  chown -R vova .docker 
+ 1122  sudo chown -R vova .docker 
+ 1123  ls -al | grep docker
+ 1124  docker images
+ 1125  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1126  la
+ 1127  docker ps
+ 1128  ls
+ 1129  rm -fr someapp/
+ 1130  rm -rf someapp/
+ 1131  ls
+ 1132  sudo rm -rf someapp/
+ 1133  ls
+ 1134  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1135  ls
+ 1136  cd someapp/
+ 1137  ls
+ 1138  cd run/
+ 1139  ls
+ 1140  ./appContainerKill 
+ 1141  ./cybercom_up 
+ 1142  docker ps
+ 1143  pwd
+ 1144  ifconfig
+ 1145  ifconfig | liss
+ 1146  ifconfig | less
+ 1147  ls
+ 1148  vi cybercom_up 
+ 1149  nano cybercom_up 
+ 1150  ifconfig | less
+ 1151  nano cybercom_up 
+ 1152  ls
+ 1153  ifconfig | less
+ 1154  ls
+ 1155  cd
+ 1156  ls
+ 1157  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1158  ls
+ 1159  cd ecopad/
+ 1160  ls
+ 1161  cd run/
+ 1162  ls
+ 1163  nano cybercom_up
+ 1164  ./appContainerKill
+ 1165  ..
+ 1166  cd ..
+ 1167  ls
+ 1168  cd ./api_code/
+ 1169  ls
+ 1170  docker build -t api .
+ 1171  cd ..
+ 1172  cd ./run/
+ 1173  ls
+ 1174  ./cybercom_up
+ 1175  docker images
+ 1176  docker ps
+ 1177  docker stop 
+ 1178  docker rm
+ 1179  docker rm dbb
+ 1180  docker rm 1e2
+ 1181  docker rm -f 1e2
+ 1182  docker rm -f 4ef7
+ 1183  ./cybercom_up
+ 1184  docker images
+ 1185  docker rm -f bc7
+ 1186  docker rm -f bc7fa
+ 1187  docker images
+ 1188  docker rm 1d4
+ 1189  docker ps
+ 1190  cd
+ 1191  cd ./some
+ 1192  cd ./someapp/
+ 1193  ps
+ 1194  ls
+ 1195  cd ./run
+ 1196  ls
+ 1197  ./appContainerKill 
+ 1198  cd
+ 1199  ecopad/
+ 1200  ls
+ 1201  cd ./ecopad/
+ 1202  ls
+ 1203  cd ./run/
+ 1204  ks
+ 1205  ls
+ 1206  ./appContainerKill 
+ 1207  cd ..
+ 1208  ls
+ 1209  cd ./api_code/
+ 1210  ls
+ 1211  docerk build -t api .
+ 1212  docker build -t api .
+ 1213  cd ..
+ 1214  ks
+ 1215  ls
+ 1216  cd ./run/
+ 1217  ./cybercom_up
+ 1218  git clone https://github.com/ou-ecolab/ecopad_portal
+ 1219  git clone https://github.com/ou-ecolab/teco_spruce
+ 1220  git clone https://github.com/ou-ecolab/teco_spruce_viz
+ 1221  scp -r vova@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1222  scp -r admin@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1223  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1224  docker build -t teco_spruce .
+ 1225  ls
+ 1226  cd ./teco_spruce
+ 1227  ls
+ 1228  docker build -t teco_spruce .
+ 1229  ls
+ 1230  cd ..
+ 1231  cd ./teco_spruce_viz/
+ 1232  docker build -t ecopad_r .
+ 1233  cd ..
+ 1234  ls
+ 1235  cd ..
+ 1236  ls
+ 1237  cd ./data/
+ 1238  ls
+ 1239  cd ./local/
+ 1240  ls
+ 1241  mkdir spruce_data
+ 1242  cp -r ../../../teco_spruce/input/* .
+ 1243  ls
+ 1244  cd ../
+ 1245  ls
+ 1246  cd .
+ 1247  cd ..
+ 1248  ls
+ 1249  cd ..
+ 1250  ls
+ 1251  cd ./ecopad/
+ 1252  ls
+ 1253  cd ./data/
+ 1254  ls
+ 1255  cd ./local/
+ 1256  ls
+ 1257  cd ..
+ 1258  ls
+ 1259  cd ..
+ 1260  ls
+ 1261  cd ./run
+ 1262  ls
+ 1263  cd ./teco_spruce
+ 1264  ls
+ 1265  cd ..
+ 1266  ls
+ 1267  cd ./data/
+ 1268  ls
+ 1269  cd ./local/
+ 1270  cd ls
+ 1271  la
+ 1272  ls
+ 1273  cd ./spruce_data/
+ 1274  ls
+ 1275  cp -r ../../../teco_spruce/input/* .
+ 1276  cd ..
+ 1277  cp -r ../../../teco_spruce/input/* .
+ 1278  cd ./spruce_data/
+ 1279  ls
+ 1280  cp -r ../../../run/teco_spruce/input/* .
+ 1281  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/data/local/spruce_data/initial.txt .
+ 1282  ls
+ 1283  cd ..
+ 1284  ls
+ 1285  cd ..
+ 1286  ls
+ 1287  cd ..
+ 1288  ls
+ 1289  cd config/
+ 1290  ls
+ 1291  cd celery/
+ 1292  ls
+ 1293  cd code/
+ 1294  ls
+ 1295  cat requirements.txt 
+ 1296  cd ..
+ 1297  ls
+ 1298  cd ..
+ 1299  ls
+ 1300  cd..
+ 1301  cd ..
+ 1302  ls
+ 1303  cd run/
+ 1304  ls
+ 1305  docker ps
+ 1306  cd ..
+ 1307  ls
+ 1308  cd log/
+ 1309  ls
+ 1310  cd ..
+ 1311  ls
+ 1312  cd run/
+ 1313  ls
+ 1314  docker log ecopad_celery
+ 1315  docker logs ecopad_celery
+ 1316  ls
+ 1317  pwd
+ 1318  nano cybercom_up
+ 1319  pwd
+ 1320  ls
+ 1321  ./appContainerKill
+ 1322  ./cybercom_up
+ 1323  ls
+ 1324  cd ..
+ 1325  ls
+ 1326  cd ./config/
+ 1327  ls
+ 1328  cd ./celery/
+ 1329  ls
+ 1330  mkdir env
+ 1331  ls
+ 1332  cd ..
+ 1333  ls
+ 1334  cd ./celery/
+ 1335  ls
+ 1336  cd ./code/
+ 1337  ls
+ 1338  cd ..
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  cd ..
+ 1343  ls
+ 1344  cd data/
+ 1345  ls
+ 1346  cd static/
+ 1347  ls
+ 1348  cd portal/
+ 1349  ls
+ 1350  cd ..
+ 1351  ls
+ 1352  mkdir ecopad_tasks
+ 1353  cd ecopad_tasks/
+ 1354  mkdir default
+ 1355  cd default/
+ 1356  ls
+ 1357  cp ../../../../run/output/Paraest.txt
+ 1358  cp ../../../../run/teco_spruce/output/Paraest.txt
+ 1359  ls
+ 1360  ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1361  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1362  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt .
+ 1363  cp ../../../../run/teco_spruce/output/
+ 1364  cp ../../../../run/teco_spruce/output/Paraest.txt .
+ 1365  sudo apt-get update
+ 1366  sudo apt_get install openssh-server
+ 1367  sudo apt-get install openssh-server
+ 1368  sudo ufw allow22
+ 1369  sudo ufw allow 22
+ 1370  ssh-keygen
+ 1371  cat id_rsa.pub > authorized_keys
+ 1372  cat /home/vova/.ssh/id_rsa.pub > authorized_keys
+ 1373  ls
+ 1374  cd ..
+ 1375  cd ./run/
+ 1376  ls
+ 1377  nano cybercom_up
+ 1378  ./docker_restart
+ 1379  ls
+ 1380  ./appContainerKill
+ 1381  ./cybercom_up
+ 1382  ./appContainerKill
+ 1383  nano cybercom_up
+ 1384  ./appContainerKill
+ 1385  nano cybercom_up
+ 1386  ./cybercom_up
+ 1387  ./appContainerKill
+ 1388  nano cybercom_up
+ 1389  ./appContainerKill
+ 1390  ./cybercom_up
+ 1391  ./appContainerKill
+ 1392  nano cybercom_up
+ 1393  ./cybercom_up
+ 1394  ./appContainerKill
+ 1395  nano cybercom_up
+ 1396  ./cybercom_up
+ 1397  ./appContainerKill
+ 1398  ./cybercom_up
+ 1399  ./appContainerKill
+ 1400  nano cybercom_up
+ 1401  ./cybercom_up
+ 1402  ./appContainerKill
+ 1403  nano cybercom_up
+ 1404  ./cybercom_up
+ 1405  ./appContainerKill
+ 1406  nano cybercom_up
+ 1407  ./cybercom_up
+ 1408  ./appContainerKill
+ 1409  nano cybercom_up
+ 1410  ./cybercom_up
+ 1411  ./appContainerKill
+ 1412  ./cybercom_up
+ 1413  ./appContainerKill
+ 1414  nano cybercom_up
+ 1415  ./appContainerKill
+ 1416  nano cybercom_up
+ 1417  ./cybercom_up
+ 1418  ./appContainerKill
+ 1419  ./cybercom_up
+ 1420  ./appContainerKill
+ 1421  nano cybercom_up
+ 1422  ./appContainerKill
+ 1423  nano cybercom_up
+ 1424  ./cybercom_up
+ 1425  ./appContainerKill
+ 1426  ./cybercom_up
+ 1427  ./appContainerKill
+ 1428  nano cybercom_up
+ 1429  ./cybercom_up
+ 1430  ./appContainerKill
+ 1431  nano cybercom_up
+ 1432  ./appContainerKill
+ 1433  ./cybercom_up
+ 1434  ./appContainerKill
+ 1435  ./cybercom_up
+ 1436  ./appContainerKill
+ 1437  nano cybercom_up
+ 1438  ./cybercom_up
+ 1439  ./appContainerKill
+ 1440  nano cybercom_up
+ 1441  ./appContainerKill
+ 1442  ./cybercom_up
+ 1443  ./appContainerKill
+ 1444  nano cybercom_up
+ 1445  ./cybercom_up
+ 1446  ./appContainerKill
+ 1447  nano cybercom_up
+ 1448  ./appContainerKill
+ 1449  ./cybercom_up
+ 1450  ./appContainerKill
+ 1451  nano cybercom_up
+ 1452  ./cybercom_up
+ 1453  ./appContainerKill
+ 1454  nano cybercom_up
+ 1455  ./cybercom_up
+ 1456  ./appContainerKill
+ 1457  nano cybercom_up
+ 1458  ./cybercom_up
+ 1459  ./appContainerKill
+ 1460  nano cybercom_up
+ 1461  ./appContainerKill
+ 1462  ./cybercom_up
+ 1463  ./appContainerKill
+ 1464  ./cybercom_up
+ 1465  ./appContainerKill
+ 1466  nano cybercom_up
+ 1467  ./cybercom_up
+ 1468  ./appContainerKill
+ 1469  nano cybercom_up
+ 1470  vi cybercom_up
+ 1471  nano cybercom_up
+ 1472  ./appContainerKill
+ 1473  ./cybercom_up
+ 1474  ./appContainerKill
+ 1475  nano cybercom_up
+ 1476  ./cybercom_up
+ 1477  ./appContainerKill
+ 1478  nano cybercom_up
+ 1479  ./cybercom_up
+ 1480  nano cybercom_up
+ 1481  ./appContainerKill
+ 1482  ./cybercom_up
+ 1483  ./appContainerKill
+ 1484  nano cybercom_up
+ 1485  ./appContainerKill
+ 1486  ./cybercom_up
+ 1487  ./appContainerKill
+ 1488  nano cybercom_up
+ 1489  ./appContainerKill
+ 1490  ./cybercom_up
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd config/
+ 1495  ls
+ 1496  cd celery/
+ 1497  ls
+ 1498  cd env/
+ 1499  ls
+ 1500  s
+ 1501  ls
+ 1502  cd ..
+ 1503  ls
+ 1504  cd ..
+ 1505  ls
+ 1506  cd ..
+ 1507  ls
+ 1508  cd ./run/
+ 1509  ls
+ 1510  nano cybercom_up 
+ 1511  ./appContainerKill
+ 1512  ./cybercom_up
+ 1513  ls
+ 1514  cd ..
+ 1515  ls
+ 1516  cd ./config/
+ 1517  ls
+ 1518  cd celery/
+ 1519  ls
+ 1520  cd env/
+ 1521  ls
+ 1522  cd ./lib/python2.7/site-packages/ecopadq/tasks/
+ 1523  nano config.py
+ 1524  sudo nano config.py
+ 1525  ls
+ 1526  sudo nano config.py
+ 1527  ifconfig
+ 1528  ifconfig | less
+ 1529  ssh -l saru0000 ecolab.oscer.ou.edu
+ 1530  cd ./ecopad/config/celery/code
+ 1531  ls
+ 1532  nano requirements.txt 
+ 1533  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "5.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "500", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.3", "Tau_C": "5.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1534  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "7.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "300", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.5", "Tau_C": "8.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1535  cd
+ 1536  ssh -l saru0000 129.15.43.165
+ 1537  ls
+ 1538  cd ecopad/
+ 1539  ls
+ 1540  cd run/
+ 1541  ls
+ 1542  ./appContainerKill
+ 1543  ./cybercom_up
+ 1544  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":["rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "5.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "500", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.3", "Tau_C": "5.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1545  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "5.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "500", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.3", "Tau_C": "5.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  cd run/
+ 1550  ./appContainerKill
+ 1551  ./cybercom_up
+ 1552  ls
+ 1553  cd ecopad_portal/
+ 1554  ls
+ 1555  cp
+ 1556  cp --help
+ 1557  ls
+ 1558  mkdir reserv
+ 1559  ls
+ 1560  cp -i api.js ./reserv/api_reserv.js
+ 1561  ls
+ 1562  cd reserv/
+ 1563  ls
+ 1564  nano api_reserv.js 
+ 1565  ls
+ 1566  ..
+ 1567  cd ..
+ 1568  ls
+ 1569  sudo nano api.js 
+ 1570  ls
+ 1571  cd ..
+ 1572  ls
+ 1573  ./appContainerKill
+ 1574  ./cybercom_up
+ 1575  ./appContainerKill
+ 1576  ./cybercom_up
+ 1577  ./appContainerKill
+ 1578  ./cybercom_up
+ 1579  ./appContainerKill
+ 1580  ./cybercom_up
+ 1581  ./appContainerKill
+ 1582  ./cybercom_up
+ 1583  cd ..
+ 1584  find
+ 1585  find teco
+ 1586  find teco_spruce
+ 1587  find / -type d -name teco_spruce
+ 1588  find ~/ -type d -name teco_spruce
+ 1589  ls
+ 1590  cd run/
+ 1591  ls
+ 1592  sudo docker build -t new_task .
+ 1593  ls
+ 1594  cd example_code_mip/
+ 1595  ls
+ 1596  cd ..
+ 1597  ls
+ 1598  sudo docker build -t new_task .
+ 1599  ls
+ 1600  cd example_code_mip/
+ 1601  ls
+ 1602  docker images
+ 1603  docker run -it new_task
+ 1604  find ~/ -name "host_*"
+ 1605  find ~/ -name "host_data*"
+ 1606  find ~/ -name "host_data_dir"
+ 1607  find ~/ -type -d -name "host_data_dir"
+ 1608  find ~/ -type d -name "host_data_dir"
+ 1609  find ~/ -type d -name "host_data*"
+ 1610  find ~/ -type d -name "host*"
+ 1611  find ~/ -type d -name "env*"
+ 1612  find ~/ -type d -name "*data*"
+ 1613  ls
+ 1614  docker build -t new_code build .
+ 1615  docker build -t new_code_build .
+ 1616  ls
+ 1617  new_code_build/
+ 1618  ls
+ 1619  cd new_code_build/
+ 1620  ls
+ 1621  docker build -t new_code_build .
+ 1622  cd ..
+ 1623  ls
+ 1624  cd config/
+ 1625  ls
+ 1626  cd celery/
+ 1627  ls
+ 1628  cd env/
+ 1629  ls
+ 1630  cd lib/
+ 1631  ls
+ 1632  cd python2.7/
+ 1633  ls
+ 1634  cd site-packages/
+ 1635  ls
+ 1636  cd ecopadq
+ 1637  ls
+ 1638  cd tasks/
+ 1639  ls
+ 1640  sudo nano tasks.py
+ 1641  ls
+ 1642  mkdri reserv
+ 1643  mkdir reserv
+ 1644  sudo mkdir reserv
+ 1645  ls
+ 1646  cp -i
+ 1647  cp -i tasks.py ./reserv/reserv_tasks.py
+ 1648  sudo cp -i tasks.py ./reserv/reserv_tasks.py
+ 1649  ls
+ 1650  cd ./reserv/
+ 1651  ls
+ 1652  nano reserv_tasks.py 
+ 1653  cd ..
+ 1654  ls
+ 1655  sudo cp -f /home/tasks.py ./tasks_test.py
+ 1656  sudo cp -f /home/vova/tasks.py ./tasks_test.py
+ 1657  ls
+ 1658  nano tasks_test.py
+ 1659  sudo cp -f ./tasks_test.py ./tasks.py
+ 1660  nano tasks.py
+ 1661  sudo nano tasks.py
+ 1662  docker images
+ 1663  docker run -it new_task
+ 1664  ls
+ 1665  cd ..
+ 1666  ls
+ 1667  cd ..
+ 1668  ls
+ 1669  cd config/
+ 1670  ls
+ 1671  cd celery/
+ 1672  ls
+ 1673  cd env/
+ 1674  ls
+ 1675  cd local/
+ 1676  ls
+ 1677  cd ecopad/
+ 1678  ls
+ 1679  clear
+ 1680  cd ecopad/
+ 1681  ls
+ 1682  cd config/
+ 1683  ls
+ 1684  cd celery/
+ 1685  ls
+ 1686  cd env/
+ 1687  ls
+ 1688  cd lib/
+ 1689  ls
+ 1690  cd python2.7/
+ 1691  ls
+ 1692  cd site-packages/
+ 1693  ls
+ 1694  cd ecopadq
+ 1695  ls
+ 1696  cd tasks/
+ 1697  ls
+ 1698  nano tasks.py
+ 1699  ls
+ 1700  clear
+ 1701  ls
+ 1702  sudo docker run -ti --entrypoint=/bin/bash new_code_build -i
+ 1703  ls
+ 1704  cd ecopad/
+ 1705  ls
+ 1706  cd config/
+ 1707  ls
+ 1708  cd celery/
+ 1709  ls
+ 1710  cd env/
+ 1711  ls
+ 1712  cd lib/
+ 1713  ls
+ 1714  cd python2.7/
+ 1715  ls
+ 1716  cd ..
+ 1717  ls
+ 1718  cd code/
+ 1719  ls
+ 1720  cd task_config/
+ 1721  ls
+ 1722  cd..
+ 1723  cd ..
+ 1724  cd env/
+ 1725  ls
+ 1726  cd lib/
+ 1727  ls
+ 1728  cd python2.7/
+ 1729  la
+ 1730  cd site-packages/
+ 1731  ls
+ 1732  cd ecopadq
+ 1733  ls
+ 1734  cd tasks/
+ 1735  ls
+ 1736  sudo nano tasks.py
+ 1737  cd ..
+ 1738  cd ../../
+ 1739  ls
+ 1740  cd run/
+ 1741  ls
+ 1742  ./appContainerKill 
+ 1743  ./cybercom_up
+ 1744  ./appContainerKill 
+ 1745  ./cybercom_up
+ 1746  ./appContainerKill 
+ 1747  ./cybercom_up
+ 1748  ../
+ 1749  cd ..
+ 1750  ls
+ 1751  cd log/
+ 1752  ls
+ 1753  nano api.log 
+ 1754  nano celery.log 
+ 1755  cd ..
+ 1756  cd run/
+ 1757  ls
+ 1758  ./appContainerKill 
+ 1759  ./cybercom_up
+ 1760  docker ps
+ 1761  cd ..
+ 1762  tail -f log/celery.log 
+ 1763  docker ps -a
+ 1764  docker run -it ecopad
+ 1765  vi cybercom_up
+ 1766  docker run -it ecopad_celery /bin/bash
+ 1767  docker exec -it ecopad_celery /bin/bash
+ 1768  ls
+ 1769  cd ..
+ 1770  ls
+ 1771  cd data/
+ 1772  ls
+ 1773  cd ..
+ 1774  ls
+ 1775  cd config/
+ 1776  ls
+ 1777  cd celery/
+ 1778  ls
+ 1779  cd env/
+ 1780  ls
+ 1781  cd lib/
+ 1782  ls
+ 1783  cd python2.7/
+ 1784  ls
+ 1785  cd site-packages/
+ 1786  ls
+ 1787  cd ecopadq
+ 1788  ls
+ 1789  cd tasks/
+ 1790  ls
+ 1791  sudo nano tasks.py
+ 1792  cd ../../../
+ 1793  cd ../../../../../
+ 1794  cd run/
+ 1795  ls
+ 1796  ./appContainerKill 
+ 1797  ./cybercom_up
+ 1798  cd ..
+ 1799  ls
+ 1800  cd config/
+ 1801  ls
+ 1802  cd celery/
+ 1803  ls
+ 1804  cd env/
+ 1805  ls
+ 1806  cd lib/
+ 1807  ls
+ 1808  cd python2.7/
+ 1809  ls
+ 1810  cd site-packages/
+ 1811  ls
+ 1812  cd ecopadq
+ 1813  ls
+ 1814  cd tasks/
+ 1815  ls
+ 1816  sudo nano tasks.py
+ 1817  ls
+ 1818  docker image
+ 1819  docker images
+ 1820  docker exec new_code_build
+ 1821  docker exec -it new_code_build
+ 1822  docker run -it new_code_build
+ 1823  sudo docker run -ti --entrypoint=/bin/bash new_code_build -i
+ 1824  cd ecopad/
+ 1825  ls
+ 1826  cd config/
+ 1827  ls
+ 1828  cd celery/
+ 1829  ls
+ 1830  cd env/
+ 1831  ls
+ 1832  cd lib/
+ 1833  ls
+ 1834  cd python2.7/
+ 1835  ls
+ 1836  cd site-packages/
+ 1837  ls
+ 1838  cd ecopadq
+ 1839  ls
+ 1840  cd tasks/
+ 1841  ls
+ 1842  nano task.py
+ 1843  nano tasks.py
+ 1844  docker images
+ 1845  docker exec -it new_code_build_x
+ 1846  docker exec -it new_code_build_x /ban/bash
+ 1847  docker ps
+ 1848  docker ps -A
+ 1849  docker ps -a
+ 1850  docker run -it new_code_build_x /ban/bash
+ 1851  docker run -ti --entrypoint=/bin/bash new_code_build_x
+ 1852  nano tasks.py
+ 1853  docker run -it new_code_build
+ 1854  docker run -ti entrypoint=/bin/bash new_code_new
+ 1855  docker run -ti entrypoint=/bin/bash new_code_new -i
+ 1856  docker run -ti entrypoint=/bin/bash new_code_build -i
+ 1857  sudo docker run -ti entrypoint=/bin/bash new_code_build -i
+ 1858  sudo docker -it entrypoint=/bin/bash new_code_build
+ 1859  sudo docker run -it entrypoint=/bin/bash new_code_build
+ 1860  clear
+ 1861  cd ecopad/
+ 1862  ls
+ 1863  cd run/
+ 1864  ls
+ 1865  ./appContainerKill 
+ 1866  ./cybercom_up
+ 1867  docker images
+ 1868  docker run -ti --entrypoint=/bin/bash teco_spruce -i
+ 1869  docker run -ti --entrypoint=/bin/bash new_code_build_x -i
+ 1870  ls
+ 1871  grep -R "new_code_build_x_sim"
+ 1872  docker build -t
+ 1873  cd ..
+ 1874  sudo docker build -t FRC_01 .
+ 1875  sudo docker build -t frc_01 .
+ 1876  cd ..
+ 1877  ls
+ 1878  cd run/
+ 1879  ls
+ 1880  sudo docker build -t frc_01 .
+ 1881  ls
+ 1882  cd frc_01/
+ 1883  ls
+ 1884  cd source/
+ 1885  ls
+ 1886  cd frc_01/
+ 1887  ls
+ 1888  sudo docker build -t frc_01 .
+ 1889  ls
+ 1890  sudo nano Dockerfile 
+ 1891  ls
+ 1892  pwd
+ 1893  cd
+ 1894  sudo nano Dockerfile 
+ 1895  ls
+ 1896  cd ecopad/
+ 1897  cd run/
+ 1898  ls
+ 1899  cd frc_01/
+ 1900  ls
+ 1901  cd source/
+ 1902  ls
+ 1903  cd frc
+ 1904  ls
+ 1905  sudo nano Dockerfile 
+ 1906  sudo docker build -t frc_01 .
+ 1907  ls
+ 1908  sudo nano Dockerfile 
+ 1909  sudo docker build -t frc_01 .
+ 1910  ls
+ 1911  docker images
+ 1912  docker run -it frc_01 /bin/bash
+ 1913  docker run -it --entrypoint=/bin/bash frc_01 /bin/bash -i
+ 1914  docker run -it --entrypoint=/bin/bash frc_01 -i
+ 1915  ls
+ 1916  docker run -it --entrypoint=/bin/bash frc_01 -i
+ 1917  docker build -t 
+ 1918  docker build -t new_code_build_x .
+ 1919  docker images
+ 1920  docker run -it new_code_build
+ 1921  docker run -it new_code_build /
+ 1922  docker run -t new_code_build
+ 1923  docker run -it new_code_build /home
+ 1924  docker run -it new_code_build /bin/bash
+ 1925  ls
+ 1926  docker run -i-t new_code_build /bin/bash
+ 1927  docker run -s new_code_build /bin/bash
+ 1928  docker run -i new_code_build /bin/bash
+ 1929  docker run -ti new_code_build /bin/bash
+ 1930  docker run -ti --entrypoint=/bin/bash new_code_build -i
+ 1931  mkdir reserv
+ 1932  sudo mkdir reserv
+ 1933  mv input reserv
+ 1934  sudo mv input reserv
+ 1935  sudo mv output reserv
+ 1936  sudo mv plot reserv
+ 1937  sudo mv new_task_pars.txt reserv
+ 1938  ls
+ 1939  cd ..
+ 1940  mkdir reserv
+ 1941  ls
+ 1942  sudo mv None reserv
+ 1943  rm None/
+ 1944  sudo mv None reserv
+ 1945  sudo mv None reserv1
+ 1946  ls
+ 1947  sudo mv None reserv2
+ 1948  sudo mv reserv2 reserv1
+ 1949  sudo mv reserv1 reserv
+ 1950  docker run -it new_task2
+ 1951  ls
+ 1952  sudo mkdir reserv3
+ 1953  mv None reserv3
+ 1954  sudo mv None reserv3
+ 1955  ls
+ 1956  sudo mv reserv3 reserv
+ 1957  ls
+ 1958  docker images
+ 1959  docker rmi new_task2
+ 1960  docker rmi newtask2
+ 1961  ls
+ 1962  docker images
+ 1963  docker rmi newtask2
+ 1964  docker rmi 7230
+ 1965  docker rmi -f 7230
+ 1966  docker images
+ 1967  docker rmi new_task1
+ 1968  docker rmi -f new_task1
+ 1969  docker images
+ 1970  ls
+ 1971  sudo mv None reserv
+ 1972  sudo mv - None reserv
+ 1973  sudo mv None reserv4
+ 1974  sudo mv reserv4 reserv
+ 1975  l
+ 1976  ls
+ 1977  sudo mv None None1
+ 1978  sudo mv None1 reserv
+ 1979  ls
+ 1980  sudo docker build -t new_code_build
+ 1981  sudo docker build -t new_code_build .
+ 1982  cd source/
+ 1983  sudo docker build -t new_code_build .\
+ 1984  sudo docker build -t new_code_build .
+ 1985  cd teco_spruce/
+ 1986  sudo docker build -t new_code_build .
+ 1987  docker images
+ 1988  grep -R "obsfile1"
+ 1989  grep -R "climatefile1"
+ 1990  grep -R "climatefile"
+ 1991  grep -R "climatefile1"
+ 1992  grep "climatefile1"
+ 1993  cd ..
+ 1994  grep -R "climatefile1"
+ 1995  docker run -it frc_01
+ 1996  ls
+ 1997  cd ecopd
+ 1998  cd ecopap
+ 1999  cd ecopad
+ 2000  ls
+ 2001  cd config/
+ 2002  ls
+ 2003  cd ..
+ 2004  ls
+ 2005  cd data
+ 2006  ls
+ 2007  cd static
+ 2008  ls
+ 2009  cd ecopad_tasks/
+ 2010  ls
+ 2011  ls -ltra
+ 2012  ls --help
+ 2013  ls --help | less
+ 2014  ls -ltra
+ 2015  cd 49ca71d9-99c2-49c4-b8db-e79d044db7a0/
+ 2016  ls
+ 2017  cd input
+ 2018  ls
+ 2019  cd ~/ecopad/run/frc_01/source/frc/
+ 2020  cd ~/ecopad/READMEfiles/historyfiles/
+ 2021  ls
+ 2022  history > w9history.txt

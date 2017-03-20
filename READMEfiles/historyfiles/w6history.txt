@@ -1,0 +1,1000 @@
+  813  sudo docker run -it gf_example_code_mip
+  814  sudo nano Dockerfile
+  815  docker images
+  816  sudo docker build -t gf_example_code_mip_2 /home/vova/dockerf3/
+  817  docker images
+  818  sudo docker run -it gf_example_code_mip_2
+  819  ls
+  820  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.add","queue":"celery","args":[8,5],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.add/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  821  ls
+  822  sudo docker run -it gf_example_code_mip_2
+  823  ls
+  824  cd ./example_code_mip
+  825  ls
+  826  scp saru0000@129.15.43.165
+  827  scp saru0000@129.15.43.165 example_code_mip
+  828  ls
+  829  cd ../
+  830  ls
+  831  scp example_code_mip saru0000@129.15.43.165 ./test
+  832  scp -r example_code_mip saru0000@129.15.43.165 ./test
+  833  scp -r example_code_mip saru0000@129.15.43.165:./test
+  834  scp -r Dockerfile saru0000@129.15.43.165:./test/example_code_mip
+  835  cd ../
+  836  ls
+  837  ssh -Y saru0000@129.15.43.165
+  838  ls
+  839  ecopadapp
+  840  cd ./ecopadapp
+  841  ls
+  842  docker ps
+  843  docker rm
+  844  docker rm ecopadapp_mongo
+  845  sudo docker rm ecopadapp_mongo
+  846  sudo docker rm /ecopadapp_mongo
+  847  ls
+  848  sudo docker rm ecopadapp_rabbitmq
+  849  sudo docker rm ecopaddapp_celery
+  850  sudo docker rm ecopadapp_api
+  851  sudo docker rm ecopadapp_celery
+  852  sudo docker rm ecopadapp_mongo
+  853  sudo docker rm ecopadapp_celery
+  854  sudo docker rm ecopadapp_rabbitmq
+  855  sudo docker rm ecopadapp_memcache
+  856  sudo docker rm -f ecopadapp_memcache
+  857  sudo docker rm ecopadapp_api
+  858  sudo docker rm ecopadapp_nginx
+  859  ls
+  860  docker ps
+  861  sudo docker rm ecopadapp_nginx
+  862  sudo docker rm ecopadapp_api
+  863  sudo docker rm -f ecopadapp_memcache
+  864  sudo docker rm ecopadapp_rabbitmq
+  865  sudo docker rm ecopadapp_celery
+  866  sudo docker rm ecopadapp_mongo
+  867  sudo docker rm ecopadapp_api
+  868  docker rm all
+  869  docker rm
+  870  docker rm --help
+  871  docker rm 347cd
+  872  sudo docker rm 347cd
+  873  sudo docker rm -f 347cd
+  874  ls
+  875  sudo docker rm -f d97d
+  876  sudo docker rm -f 584deb
+  877  sudo docker rm -f 899
+  878  sudo docker rm -f 2e5
+  879  sudo docker rm -f 2ead5
+  880  sudo docker rm ecopadapp_api
+  881  sudo docker rm ecopadapp_mongo
+  882  sudo docker rm ecopadapp_api
+  883  sudo docker rm -f ecopadapp_memcache
+  884  sudo docker rm ecopadapp_rabbitmq
+  885  sudo docker rm ecopadapp_celery
+  886  docker images
+  887  docker images stop
+  888  sudo docker images stop
+  889  ls
+  890  docker kill $(docker ps -q)
+  891  sudo docker kill $(docker ps -q)
+  892  ps
+  893  docker ps
+  894  sudo docker rm $(docker ps -a -q)
+  895  sudo docker rm $(docker ps -a -f -q)
+  896  sudo docker rm -f $(docker ps -a -q)
+  897  docker ps
+  898  docker rmi $(docker images -q)
+  899  ls
+  900  docker images
+  901  docker rmi
+  902  docker rmi -f dockersamples/visualizer
+  903  ls
+  904  docker images
+  905  sudo docker rmi -f dockersamples/visualizer
+  906  sudo docker rmi -f e833d9d59197
+  907  docker rmi $(docker images -q)
+  908  sudo docker rm -f $(docker ps -a -q)
+  909  docker rmi $(docker images -q)
+  910  sudo docker rm -f $(docker ps -a -q)
+  911  docker rmi $(docker images -q)
+  912  ls
+  913  sudo docker images
+  914  sudo apy install python-pip
+  915  sudo apt install python-pip
+  916  sudo apt-get apdate apt-get upgrad as root
+  917  Apt-get apdate apt-get upgrad as root
+  918  sudo group
+  919  sudo groupadd
+  920  sudo groupadd docker
+  921  sudo usermod -aG docker vova
+  922  sg docker-c "bash"
+  923  sg docker -c "bash"
+  924  pip install cookiecutter
+  925  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+  926  sudo cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+  927  ls
+  928  cd ecopadapp
+  929  cd
+  930  ls
+  931  cd ecopadapp/api_code
+  932  ls
+  933  docker build -t api
+  934  docker build -t api .
+  935  cd..
+  936  ls
+  937  cd ..
+  938  ls
+  939  ./run/cybercom_up
+  940  sudo ./run/cybercom_up
+  941  ls
+  942  docker images
+  943  sudo ./run/cybercom_up
+  944  ls
+  945  cd ../
+  946  ls
+  947  cd ./ecopadapp
+  948  ls
+  949  cd ./run
+  950  ls
+  951  sudo nano cybercom_up
+  952  ls
+  953  cd ../
+  954  ../
+  955  cd ..
+  956  ls
+  957  cd ./ecopadapp
+  958  ls
+  959  cd ./api_code/
+  960  ls
+  961  cd ./
+  962  ls
+  963  cd ../
+  964  ls
+  965  cd ./config
+  966  ls
+  967  cd ../
+  968  ls
+  969  cd ./run
+  970  ls
+  971  sudo nano cybercom_up
+  972  sudo ./cybercom_up
+  973  sudo nano cybercom_up
+  974  sudo ./cybercom_up
+  975  sudo nano cybercom_up
+  976  sudo ./cybercom_up
+  977  docker ps
+  978  docker ps -a
+  979  docker run c3fceab83bd1784a922de99143b4ae212a4118fc9cd53838845f48b88c23e670
+  980  ps
+  981  sudo ./cybercom_up
+  982  docker ps
+  983  sudo ./cybercom_up
+  984  docker ps
+  985  sudo ./cybercom_up
+  986  cd
+  987  ssh -y 129.15.43.165
+  988  ssh 129.15.43.165
+  989  ssh -Y 129.15.43.165
+  990  ssh -l 129.15.43.165
+  991  ssh -l saru0000 129.15.43.165
+  992  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.add","queue":"celery","args":[5,3],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.add/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > 
+  993  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  994  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[15],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  995  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[arg],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  996  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[teco_spruce],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  997  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[8.5],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  998  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[pH],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+  999  ls
+ 1000  ssh -l saru0000 129.15.43.164
+ 1001  ls
+ 1002  ssh -Y saru0000@129.15.43.165
+ 1003  ssh --help
+ 1004  ssh -l
+ 1005  ssh -l saru0000 129.15.43.165
+ 1006  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[input/SPRUCE_obs.txt input/SPRUCE_obs.txt input/SPRUCE_obs.txt input/SPRUCE_obs.txt 0 input/SPRUCE_obs.txt 2024 300 8 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1007  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[./TECO.out input/SPRUCE_pars.txt input/SPRUCE_forcing.txt input/SPRUCE_obs.txt output/ 0 input/SPRUCE_da_pars.txt 2024 300 8 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1008  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[input/SPRUCE_pars.txt input/SPRUCE_forcing.txt input/SPRUCE_obs.txt output/ 0 input/SPRUCE_da_pars.txt 2024 300 8 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1009  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[2024 300 8 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1010  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[2024, 300, 8, 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1011  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[2024],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1012  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.some_app","queue":"celery","args":[450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.some_app/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1013  ssh -l saru0000 129.15.43.165
+ 1014  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[1],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1015  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[0],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1016  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[./TECO.out input/SPRUCE_pars.txt input/SPRUCE_forcing.txt input/SPRUCE_obs.txt output/ 0 input/SPRUCE_da_pars.txt],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1017  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[./TECO.out, input/SPRUCE_pars.txt, input/SPRUCE_forcing.txt, input/SPRUCE_obs.txt, output/, 0, input/SPRUCE_da_pars.txt],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1018  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[file1, file2, file3, outputfolder, 0, DAfile, fffiles, 2024, 300, 8, 450],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token aaac6197e8759478002e60a82456ab13032e8a99'
+ 1019  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.add","queue":"celery","args":[5,3],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.add/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1020  ssh -l saru0000 129.15.43.165
+ 1021  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.add","queue":"celery","args":[],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.add/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1022  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.add","queue":"celery","args":[5,5],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.add/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1023  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.mul","queue":"celery","args":[],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.mul/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1024  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.mul","queue":"celery","args":[3,4],"kwargs":{kwarg},"tags": [tag]}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.mul/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1025  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[],"kwargs":{  },"tags": []}' http://ecolab.cybercommons.org/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token < authorized-token > '
+ 1026  dockek images
+ 1027  docker images
+ 1028  docker ps
+ 1029  sudo apt-get purge docker-engine
+ 1030  udo apt-get purge docker-engine
+ 1031  sudo apt-get purge docker-engine
+ 1032  rm -rf /var/lib/docker
+ 1033  sudo rm -rf /var/lib/docker
+ 1034  docker stop
+ 1035  sudo rm -rf /var/lib/docker
+ 1036  sudo rm -f /var/lib/docker
+ 1037  cd ./var/lib/docker
+ 1038  cd ../
+ 1039  ls
+ 1040  cd ./var/lib/docker/
+ 1041  ls
+ 1042  sudo ls
+ 1043  cd ./aufs/
+ 1044  sudo cd ./aufs/
+ 1045  ls
+ 1046  sudo ls
+ 1047  rm -rf /aufs/
+ 1048  sudo ls
+ 1049  sudo rm -rf /var/lib/docker
+ 1050  cd ../../var/lib/
+ 1051  ls
+ 1052  cd ./docker/
+ 1053  ls
+ 1054  cd ecopad/
+ 1055  ls
+ 1056  cd run/
+ 1057  ls
+ 1058  ./appContainerKill 
+ 1059  ./cybercom_up
+ 1060  ./appContainerKill
+ 1061  ./cybercom_up
+ 1062  ./appContainerKill
+ 1063  ./cybercom_up
+ 1064  ./appContainerKill
+ 1065  docker pw
+ 1066  docker ps
+ 1067  nano cybercom_up
+ 1068  ./appContainerKill
+ 1069  ./cybercom_up
+ 1070  ./appContainerKill
+ 1071  ./cybercom_up
+ 1072  ./appContainerKill
+ 1073  ./cybercom_up
+ 1074  ./appContainerKill
+ 1075  ls
+ 1076  cd ..
+ 1077  ;s
+ 1078  ls
+ 1079  docker ps
+ 1080  cd run/
+ 1081  ls
+ 1082  ./cybercom_up 
+ 1083  docker logs ecopad_celery
+ 1084  ls
+ 1085  cd ..
+ 1086  ls
+ 1087  cd config/
+ 1088  ls
+ 1089  cd celery/
+ 1090  ls
+ 1091  cd code/
+ 1092  ls
+ 1093  vi requirements.txt 
+ 1094  cd ..
+ 1095  ls
+ 1096  source env/bin/activate
+ 1097  pip freeze
+ 1098  pip install pandas
+ 1099  exit
+ 1100  docker images
+ 1101  exit
+ 1102  cd ecopad/
+ 1103  ls
+ 1104  cd run/
+ 1105  ls
+ 1106  ./appContainerKill 
+ 1107  ./cybercom_up 
+ 1108  docker logs -f ecopad_celery
+ 1109  docker ps
+ 1110  docker logs ecopad_celery
+ 1111  ls
+ 1112  cd ../
+ 1113  ls
+ 1114  cd config/
+ 1115  ls
+ 1116  cd celery/
+ 1117  ls
+ 1118  cd code/
+ 1119  ls
+ 1120  cd ..
+ 1121  ls
+ 1122  cd ..
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  cd run/
+ 1127  ks
+ 1128  ls
+ 1129  cd ..
+ 1130  find ./ -name task_config
+ 1131  cd ..
+ 1132  ls
+ 1133  cd ecopad/
+ 1134  ls
+ 1135  find ./ -name "config.py" 
+ 1136  cd ..
+ 1137  ls
+ 1138  cd ecopad/
+ 1139  ls
+ 1140  cd config/
+ 1141  ls
+ 1142  cd celery/
+ 1143  ls
+ 1144  scp -r saru0000@ecolab.oscer.ou.edu:~/../ecopad/celery/code/task_config .
+ 1145  ssh saru0000@ecolab.oscer.ou.edu
+ 1146  scp -r saru0000@ecolab.oscer.ou.edu:/home/ecopad/ecopad/celery/code/task_config .
+ 1147  ls
+ 1148  mv task_config/ code/
+ 1149  ls
+ 1150  cd code/
+ 1151  ls
+ 1152  cd task_config/
+ 1153  ls
+ 1154  vi config.py
+ 1155  cd ..
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd ..
+ 1160  ls
+ 1161  cd ..
+ 1162  ls
+ 1163  cd run/
+ 1164  ls
+ 1165  ./appContainerKill 
+ 1166  ./cybercom_up 
+ 1167  docker logs ecopad_celery
+ 1168  cd ../..
+ 1169  ls
+ 1170  cd ecopad/
+ 1171  ls
+ 1172  cd config/
+ 1173  ls
+ 1174  cd celery/
+ 1175  cd code/
+ 1176  ls
+ 1177  cd task_config/
+ 1178  ls
+ 1179  vi config.py
+ 1180  cd ..
+ 1181  ls
+ 1182  cd ..
+ 1183  ls
+ 1184  cd ../..
+ 1185  ls
+ 1186  cd run/
+ 1187  ls
+ 1188  ./appContainerKill 
+ 1189  rm ../config/celery/code/task_config/config.pyc
+ 1190  ./cybercom_up 
+ 1191  cd ..
+ 1192  ls
+ 1193  cd config/
+ 1194  ls
+ 1195  cd celery/
+ 1196  ls
+ 1197  cd code/
+ 1198  ls
+ 1199  cd task_config/
+ 1200  ls
+ 1201  cp config.py config1.py 
+ 1202  ls
+ 1203  rm config.py 
+ 1204  cat config1.py 
+ 1205  vi config.py
+ 1206  nano config.py 
+ 1207  vi config.py
+ 1208  cd ..
+ 1209  ls
+ 1210  cd ..
+ 1211  ls
+ 1212  cd ..
+ 1213  ls
+ 1214  cd ..
+ 1215  ls
+ 1216  cd run/
+ 1217  ls
+ 1218  ./appContainerKill 
+ 1219  ./cybercom_up 
+ 1220  docker logs ecopad_celery
+ 1221  cd ../config/celery/env/lib/python2.7/site-packages/ecopadq/tasks/
+ 1222  ls
+ 1223  vi config.py 
+ 1224  rm config.py 
+ 1225  ls
+ 1226  sudo rm config.py 
+ 1227  cd
+ 1228  cd ecopad/
+ 1229  ls
+ 1230  cd run/
+ 1231  ls
+ 1232  ./appContainerKill 
+ 1233  ./cybercom_up 
+ 1234  docker ps
+ 1235  ls
+ 1236  cd ..
+ 1237  ls
+ 1238  cd data/
+ 1239  ls
+ 1240  cd static/
+ 1241  ls
+ 1242  git clone https://github.com/ou-ecolab/ecopad_portal.git
+ 1243  cd
+ 1244  ls
+ 1245  cd .ssh
+ 1246  ls
+ 1247  cat id_rsa.pub >authorized_keys
+ 1248  ls
+ 1249  ls -ltra
+ 1250  cd 
+ 1251  cd ecopad/
+ 1252  ls
+ 1253  cd run/
+ 1254  ;ls
+ 1255  ls
+ 1256  nano cybercom_up 
+ 1257  ls -ltra
+ 1258  cd .ssh
+ 1259  ls
+ 1260  cd ..
+ 1261  ;s
+ 1262  ls
+ 1263  cd ecopad/
+ 1264  ls
+ 1265  cd run/
+ 1266  ls
+ 1267  vi cybercom_up 
+ 1268  sudo apt install docker.io
+ 1269  docker images
+ 1270  sudo docker images
+ 1271  sudo apt intall python-pip
+ 1272  sudo apt install python-pip
+ 1273  sudo docker groupadd docker
+ 1274  sudo groupadd docker
+ 1275  sudo usermod -aG docker vova
+ 1276  sg docker-c "bash"
+ 1277  sg docker -c "bash"
+ 1278  pip install cookiecutter
+ 1279  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1280  ls
+ 1281  rm someapp
+ 1282  rm -f someapp
+ 1283  rm -fr someapp
+ 1284  ls
+ 1285  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1286  cd someapp/api_code/
+ 1287  docker build -t api .
+ 1288  cd ..
+ 1289  ./run/cybercom_up
+ 1290  docker images
+ 1291  docker ps
+ 1292  docker images
+ 1293  la
+ 1294  ls
+ 1295  pwd
+ 1296  cd ./run/
+ 1297  ls
+ 1298  ./appContainerKill 
+ 1299  ./cybercom_up 
+ 1300  sudo ./cybercom_up 
+ 1301  ./appContainerKill 
+ 1302  sudo ./appContainerKill 
+ 1303  sudo ./cybercom_up 
+ 1304  cd 
+ 1305  cookiecutter $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1306  $ cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1307  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1308  ls
+ 1309  rm -rf someapp/
+ 1310  pwd
+ 1311  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1312  cd someapp/
+ 1313  ls
+ 1314  cd run/
+ 1315  ks
+ 1316  ls
+ 1317  ./appContainerKill 
+ 1318  groups
+ 1319  group
+ 1320  groups
+ 1321  docker ps
+ 1322  ls -l
+ 1323  cd ~/.docker/
+ 1324  cd 
+ 1325  ls -l  | grep docker
+ 1326  ls -l .docker/
+ 1327  ls -al | grep docerk
+ 1328  ls -al | grep docker
+ 1329  man chmod
+ 1330  chown -R vova .docker 
+ 1331  sudo chown -R vova .docker 
+ 1332  ls -al | grep docker
+ 1333  docker images
+ 1334  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1335  la
+ 1336  docker ps
+ 1337  ls
+ 1338  rm -fr someapp/
+ 1339  rm -rf someapp/
+ 1340  ls
+ 1341  sudo rm -rf someapp/
+ 1342  ls
+ 1343  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1344  ls
+ 1345  cd someapp/
+ 1346  ls
+ 1347  cd run/
+ 1348  ls
+ 1349  ./appContainerKill 
+ 1350  ./cybercom_up 
+ 1351  docker ps
+ 1352  pwd
+ 1353  ifconfig
+ 1354  ifconfig | liss
+ 1355  ifconfig | less
+ 1356  ls
+ 1357  vi cybercom_up 
+ 1358  nano cybercom_up 
+ 1359  ifconfig | less
+ 1360  nano cybercom_up 
+ 1361  ls
+ 1362  ifconfig | less
+ 1363  ls
+ 1364  cd
+ 1365  ls
+ 1366  cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+ 1367  ls
+ 1368  cd ecopad/
+ 1369  ls
+ 1370  cd run/
+ 1371  ls
+ 1372  nano cybercom_up
+ 1373  ./appContainerKill
+ 1374  ..
+ 1375  cd ..
+ 1376  ls
+ 1377  cd ./api_code/
+ 1378  ls
+ 1379  docker build -t api .
+ 1380  cd ..
+ 1381  cd ./run/
+ 1382  ls
+ 1383  ./cybercom_up
+ 1384  docker images
+ 1385  docker ps
+ 1386  docker stop 
+ 1387  docker rm
+ 1388  docker rm dbb
+ 1389  docker rm 1e2
+ 1390  docker rm -f 1e2
+ 1391  docker rm -f 4ef7
+ 1392  ./cybercom_up
+ 1393  docker images
+ 1394  docker rm -f bc7
+ 1395  docker rm -f bc7fa
+ 1396  docker images
+ 1397  docker rm 1d4
+ 1398  docker ps
+ 1399  cd
+ 1400  cd ./some
+ 1401  cd ./someapp/
+ 1402  ps
+ 1403  ls
+ 1404  cd ./run
+ 1405  ls
+ 1406  ./appContainerKill 
+ 1407  cd
+ 1408  ecopad/
+ 1409  ls
+ 1410  cd ./ecopad/
+ 1411  ls
+ 1412  cd ./run/
+ 1413  ks
+ 1414  ls
+ 1415  ./appContainerKill 
+ 1416  cd ..
+ 1417  ls
+ 1418  cd ./api_code/
+ 1419  ls
+ 1420  docerk build -t api .
+ 1421  docker build -t api .
+ 1422  cd ..
+ 1423  ks
+ 1424  ls
+ 1425  cd ./run/
+ 1426  ./cybercom_up
+ 1427  git clone https://github.com/ou-ecolab/ecopad_portal
+ 1428  git clone https://github.com/ou-ecolab/teco_spruce
+ 1429  git clone https://github.com/ou-ecolab/teco_spruce_viz
+ 1430  scp -r vova@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1431  scp -r admin@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1432  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/teco_spruce/input/Weathergenerate .
+ 1433  docker build -t teco_spruce .
+ 1434  ls
+ 1435  cd ./teco_spruce
+ 1436  ls
+ 1437  docker build -t teco_spruce .
+ 1438  ls
+ 1439  cd ..
+ 1440  cd ./teco_spruce_viz/
+ 1441  docker build -t ecopad_r .
+ 1442  cd ..
+ 1443  ls
+ 1444  cd ..
+ 1445  ls
+ 1446  cd ./data/
+ 1447  ls
+ 1448  cd ./local/
+ 1449  ls
+ 1450  mkdir spruce_data
+ 1451  cp -r ../../../teco_spruce/input/* .
+ 1452  ls
+ 1453  cd ../
+ 1454  ls
+ 1455  cd .
+ 1456  cd ..
+ 1457  ls
+ 1458  cd ..
+ 1459  ls
+ 1460  cd ./ecopad/
+ 1461  ls
+ 1462  cd ./data/
+ 1463  ls
+ 1464  cd ./local/
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  cd ..
+ 1469  ls
+ 1470  cd ./run
+ 1471  ls
+ 1472  cd ./teco_spruce
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  cd ./data/
+ 1477  ls
+ 1478  cd ./local/
+ 1479  cd ls
+ 1480  la
+ 1481  ls
+ 1482  cd ./spruce_data/
+ 1483  ls
+ 1484  cp -r ../../../teco_spruce/input/* .
+ 1485  cd ..
+ 1486  cp -r ../../../teco_spruce/input/* .
+ 1487  cd ./spruce_data/
+ 1488  ls
+ 1489  cp -r ../../../run/teco_spruce/input/* .
+ 1490  scp -r saru0000@ecolab.cybercommons.org:/home/ecopad/ecopad/data/local/spruce_data/initial.txt .
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  cd ..
+ 1497  ls
+ 1498  cd config/
+ 1499  ls
+ 1500  cd celery/
+ 1501  ls
+ 1502  cd code/
+ 1503  ls
+ 1504  cat requirements.txt 
+ 1505  cd ..
+ 1506  ls
+ 1507  cd ..
+ 1508  ls
+ 1509  cd..
+ 1510  cd ..
+ 1511  ls
+ 1512  cd run/
+ 1513  ls
+ 1514  docker ps
+ 1515  cd ..
+ 1516  ls
+ 1517  cd log/
+ 1518  ls
+ 1519  cd ..
+ 1520  ls
+ 1521  cd run/
+ 1522  ls
+ 1523  docker log ecopad_celery
+ 1524  docker logs ecopad_celery
+ 1525  ls
+ 1526  pwd
+ 1527  nano cybercom_up
+ 1528  pwd
+ 1529  ls
+ 1530  ./appContainerKill
+ 1531  ./cybercom_up
+ 1532  ls
+ 1533  cd ..
+ 1534  ls
+ 1535  cd ./config/
+ 1536  ls
+ 1537  cd ./celery/
+ 1538  ls
+ 1539  mkdir env
+ 1540  ls
+ 1541  cd ..
+ 1542  ls
+ 1543  cd ./celery/
+ 1544  ls
+ 1545  cd ./code/
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd data/
+ 1554  ls
+ 1555  cd static/
+ 1556  ls
+ 1557  cd portal/
+ 1558  ls
+ 1559  cd ..
+ 1560  ls
+ 1561  mkdir ecopad_tasks
+ 1562  cd ecopad_tasks/
+ 1563  mkdir default
+ 1564  cd default/
+ 1565  ls
+ 1566  cp ../../../../run/output/Paraest.txt
+ 1567  cp ../../../../run/teco_spruce/output/Paraest.txt
+ 1568  ls
+ 1569  ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1570  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt
+ 1571  cp ../../../../run/teco_spruce/input/SPRUCE_da_pars.txt .
+ 1572  cp ../../../../run/teco_spruce/output/
+ 1573  cp ../../../../run/teco_spruce/output/Paraest.txt .
+ 1574  sudo apt-get update
+ 1575  sudo apt_get install openssh-server
+ 1576  sudo apt-get install openssh-server
+ 1577  sudo ufw allow22
+ 1578  sudo ufw allow 22
+ 1579  ssh-keygen
+ 1580  cat id_rsa.pub > authorized_keys
+ 1581  cat /home/vova/.ssh/id_rsa.pub > authorized_keys
+ 1582  ls
+ 1583  cd ..
+ 1584  cd ./run/
+ 1585  ls
+ 1586  nano cybercom_up
+ 1587  ./docker_restart
+ 1588  ls
+ 1589  ./appContainerKill
+ 1590  ./cybercom_up
+ 1591  ./appContainerKill
+ 1592  nano cybercom_up
+ 1593  ./appContainerKill
+ 1594  nano cybercom_up
+ 1595  ./cybercom_up
+ 1596  ./appContainerKill
+ 1597  nano cybercom_up
+ 1598  ./appContainerKill
+ 1599  ./cybercom_up
+ 1600  ./appContainerKill
+ 1601  nano cybercom_up
+ 1602  ./cybercom_up
+ 1603  ./appContainerKill
+ 1604  nano cybercom_up
+ 1605  ./cybercom_up
+ 1606  ./appContainerKill
+ 1607  ./cybercom_up
+ 1608  ./appContainerKill
+ 1609  nano cybercom_up
+ 1610  ./cybercom_up
+ 1611  ./appContainerKill
+ 1612  nano cybercom_up
+ 1613  ./cybercom_up
+ 1614  ./appContainerKill
+ 1615  nano cybercom_up
+ 1616  ./cybercom_up
+ 1617  ./appContainerKill
+ 1618  nano cybercom_up
+ 1619  ./cybercom_up
+ 1620  ./appContainerKill
+ 1621  ./cybercom_up
+ 1622  ./appContainerKill
+ 1623  nano cybercom_up
+ 1624  ./appContainerKill
+ 1625  nano cybercom_up
+ 1626  ./cybercom_up
+ 1627  ./appContainerKill
+ 1628  ./cybercom_up
+ 1629  ./appContainerKill
+ 1630  nano cybercom_up
+ 1631  ./appContainerKill
+ 1632  nano cybercom_up
+ 1633  ./cybercom_up
+ 1634  ./appContainerKill
+ 1635  ./cybercom_up
+ 1636  ./appContainerKill
+ 1637  nano cybercom_up
+ 1638  ./cybercom_up
+ 1639  ./appContainerKill
+ 1640  nano cybercom_up
+ 1641  ./appContainerKill
+ 1642  ./cybercom_up
+ 1643  ./appContainerKill
+ 1644  ./cybercom_up
+ 1645  ./appContainerKill
+ 1646  nano cybercom_up
+ 1647  ./cybercom_up
+ 1648  ./appContainerKill
+ 1649  nano cybercom_up
+ 1650  ./appContainerKill
+ 1651  ./cybercom_up
+ 1652  ./appContainerKill
+ 1653  nano cybercom_up
+ 1654  ./cybercom_up
+ 1655  ./appContainerKill
+ 1656  nano cybercom_up
+ 1657  ./appContainerKill
+ 1658  ./cybercom_up
+ 1659  ./appContainerKill
+ 1660  nano cybercom_up
+ 1661  ./cybercom_up
+ 1662  ./appContainerKill
+ 1663  nano cybercom_up
+ 1664  ./cybercom_up
+ 1665  ./appContainerKill
+ 1666  nano cybercom_up
+ 1667  ./cybercom_up
+ 1668  ./appContainerKill
+ 1669  nano cybercom_up
+ 1670  ./appContainerKill
+ 1671  ./cybercom_up
+ 1672  ./appContainerKill
+ 1673  ./cybercom_up
+ 1674  ./appContainerKill
+ 1675  nano cybercom_up
+ 1676  ./cybercom_up
+ 1677  ./appContainerKill
+ 1678  nano cybercom_up
+ 1679  vi cybercom_up
+ 1680  nano cybercom_up
+ 1681  ./appContainerKill
+ 1682  ./cybercom_up
+ 1683  ./appContainerKill
+ 1684  nano cybercom_up
+ 1685  ./cybercom_up
+ 1686  ./appContainerKill
+ 1687  nano cybercom_up
+ 1688  ./cybercom_up
+ 1689  nano cybercom_up
+ 1690  ./appContainerKill
+ 1691  ./cybercom_up
+ 1692  ./appContainerKill
+ 1693  nano cybercom_up
+ 1694  ./appContainerKill
+ 1695  ./cybercom_up
+ 1696  ./appContainerKill
+ 1697  nano cybercom_up
+ 1698  ./appContainerKill
+ 1699  ./cybercom_up
+ 1700  ls
+ 1701  cd ..
+ 1702  ls
+ 1703  cd config/
+ 1704  ls
+ 1705  cd celery/
+ 1706  ls
+ 1707  cd env/
+ 1708  ls
+ 1709  s
+ 1710  ls
+ 1711  cd ..
+ 1712  ls
+ 1713  cd ..
+ 1714  ls
+ 1715  cd ..
+ 1716  ls
+ 1717  cd ./run/
+ 1718  ls
+ 1719  nano cybercom_up 
+ 1720  ./appContainerKill
+ 1721  ./cybercom_up
+ 1722  ls
+ 1723  cd ..
+ 1724  ls
+ 1725  cd ./config/
+ 1726  ls
+ 1727  cd celery/
+ 1728  ls
+ 1729  cd env/
+ 1730  ls
+ 1731  cd ./lib/python2.7/site-packages/ecopadq/tasks/
+ 1732  nano config.py
+ 1733  sudo nano config.py
+ 1734  ls
+ 1735  sudo nano config.py
+ 1736  ifconfig
+ 1737  ifconfig | less
+ 1738  ssh -l saru0000 ecolab.oscer.ou.edu
+ 1739  cd ./ecopad/config/celery/code
+ 1740  ls
+ 1741  nano requirements.txt 
+ 1742  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "5.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "500", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.3", "Tau_C": "5.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1743  curl -X POST --data-ascii '{"function":"ecopadq.tasks.tasks.teco_spruce_simulation","queue":"celery","args":[{"rdepth": "150", "GLmax": "39.2", "Tau_Passive": "2050", "Stemmax": "1000", "LAIMIN": "0.3", "Tau_Wood": "40", "GRmax": "20.25", "LAIMAX": "7.3", "SLA": "40", "Q10": "2", "extkU": "0.51", "wsmax": "60.1", "SapR": "1", "SapS": "0.2", "Vcmx0": "80", "wsmin": "0.2", "stom_n": "2", "Gsmax": "20.25", "Tau_Micro": "0.4", "Ds0": "2000", "xfang": "0", "a1": "8", "latitude": "47.5", "Rootmax": "300", "lat": "0", "alpha": "0.385", "Tau_Leaf": "1.5", "Tau_F": "0.5", "Tau_C": "8.86", "longitude": "-93.46", "gddonset": "140", "Tau_SlowSOM": "356.94", "Rr0": "29", "Rs0": "7", "Rl0": "30.2", "Tau_Root": "0.8"}],"kwargs":{  },"tags": []}' http://localhost/api/queue/run/ecopadq.tasks.tasks.teco_spruce_simulation/.json -H Content-Type:application/json -H 'Authorization: Token f6e57ace5bcae1072797b2b3f07c9faa6ba6f6cb'
+ 1744  cd
+ 1745  ssh -l saru0000 129.15.43.165
+ 1746  cd
+ 1747  ls
+ 1748  cd example_code_mip/
+ 1749  ls
+ 1750  cd.
+ 1751  cd
+ 1752  ls
+ 1753  cd ecopad/
+ 1754  cd run/
+ 1755  ls
+ 1756  cd ..
+ 1757  ls
+ 1758  cd run/
+ 1759  cd ecopad_portal/
+ 1760  ls
+ 1761  nano api.js
+ 1762  cd ..
+ 1763  find ~/ -type -d -name "static"
+ 1764  find ~/ -type d -name "static"
+ 1765  find ~/ -type d -name "ecopad_tasks"
+ 1766  find ~/ -type d -name "SPRUCE_pars"
+ 1767  find ~/ -type f -name "SPRUCE_pars"
+ 1768  find ~/ -name "SPRUCE_pars*"
+ 1769  grep -R "teco_spruce"
+ 1770  ls
+ 1771  nano run/
+ 1772  cd run/
+ 1773  ls
+ 1774  nano Dockerfile 
+ 1775  docker build -t new_task1 .
+ 1776  docker images
+ 1777  docker run -it new_code_build
+ 1778  docker run -it new_code_build /bin/bash
+ 1779  docker images
+ 1780  ls
+ 1781  cd ..
+ 1782  ls
+ 1783  cd config/
+ 1784  ls
+ 1785  cd celery/
+ 1786  ls
+ 1787  cd env/
+ 1788  ls
+ 1789  cd ..
+ 1790  ls
+ 1791  cd ..
+ 1792  ls
+ 1793  cd ..
+ 1794  cd data/
+ 1795  ls
+ 1796  cd static/
+ 1797  ls
+ 1798  cd ecopad_tasks/
+ 1799  ls
+ 1800  sudo mkdir None2
+ 1801  sudo mv None None2
+ 1802  ls
+ 1803  sudo mv None2 reserv/
+ 1804  ls
+ 1805  docker imagesd
+ 1806  docker images
+ 1807  docker rmi frc_01
+ 1808  docker rmi -f frc_01
+ 1809  docker rmi frc_01
+ 1810  docker rmi -f frc_01
+ 1811  cd ~/ecopad/READMEfiles/historyfiles/
+ 1812  history > w6history.txt

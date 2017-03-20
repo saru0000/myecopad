@@ -1,0 +1,82 @@
+   open(10,file=parafile,status='old')
+    read(10,11)commts
+    read(10,*)lat,longi,wsmax,wsmin
+    read(10,11)commts
+    read(10,*)LAIMAX,LAIMIN,rdepth,Rootmax,Stemmax    
+    read(10,11)commts
+    read(10,*)SapR,SapS,SLA,GLmax,GRmax,Gsmax,stom_n
+    read(10,11)commts
+    read(10,*)a1,Ds0,Vcmx0,extkU,xfang,alpha
+    read(10,11)commts
+    read(10,*)Tau_Leaf,Tau_Wood,Tau_Root,Tau_F,Tau_C,Tau_Micro,Tau_slowSOM,Tau_Passive
+    read(10,11)commts
+    read(10,*)gddonset,Q10,Rl0,Rs0,Rr0
+    read(10,11)commts
+    read(10,*)r_me,Q10pro,kCH4,Omax,CH4_thre,Tveg,Tpro_me,Toxi 
+
+
+
+
+
+New (do not use this)
+lat	longi	wsmax	wsmin
+{{lat}} {{longi}} {{wsmax}} {{wsmin}}
+LAIMAX	LAIMIN	rdepth	Rootmax Stemmax
+{{LAIMAX}} {{LAIMIN}} {{rdepth}} {{Rootmax}} {{Stemmax}}
+SapR	SapS	SLA	GLmax	GRmax	Gsmax	stom_n
+{{SapR}} {{SapS}} {{SLA}} {{GLmax}} {{GRmax}} {{Gsmax}} {{stom_n}}
+a1	Ds0	Vcmx0	extkU	xfang	alpha
+{{a1}} {{Ds0}} {{Vcmx0}} {{extkU}} {{xfang}} {{alpha}}
+Tau_Leaf	Tau_Wood	Tau_Root	Tau_F	Tau_C	Tau_Micro	Tau_slowSOM	Tau_Passive
+{{Tau_Leaf}} {{Tau_Wood}} {{Tau_Root}} {{Tau_F}} {{Tau_C}} {{Tau_Micro}} {{Tau_slowSOM}} {{Tau_Passive}}
+gddonset Q10     Rl0     Rs0     Rr0
+{{gddonset}} {{Q10}} {{Rl0}} {{Rs0}} {{Rr0}}
+r_me Q10pro kCH4 Omax CH4_thre Tveg Tpro_me Toxi
+{{r_me}} {{Q10pro}} {{kCH4}} {{Omax}} {{CH4_thre}} {{Tveg}} {{Tpro_me}} {{Toxi}}
+
+
+Used before (do not use this)
+{"lat": "47.50", "Longitude": "-93.45", "wsmax": "95.", "wsmin": "2.0", "LAIMAX": "5.3", "LAIMIN": "0.3", "rdepth": "150", "Rootmax": "500", "Stemmax": "1000", "SapR": "1", "SapS": "0.2", "SLA": "34.2274", "GLmax": "44.3078", "GRmax": "18.6138", "Gsmax": "28.7573", "stom_n": "2", "a1": "8", "Ds0": "2000", "Vcmx0": "41.3127", "extkU": "0.51", "xfang": "0", "alpha": "0.385", "Tau_Leaf": "2.3063", "Tau_Wood": "183.1198", "Tau_Root": "1.5259", "Tau_F": "0.4186", "Tau_C": "19.8031", "Tau_Micro": "0.2274", "Tau_SlowSOM": "753.9883", "Tau_Passive": "2189.916", "gddonset": "144.8867", "Q10": "1.2387", "Rl0": "25.6444", "Rs0": "4.8358", "Rr0": "34.4162", "r_me": "0.0905","Q10_pro":"14.0091","kCH4":"5.0","Omax":"10","CH4_thre":"477.6095","Tveg":"0.5326","Tpro_me":"10.0","Toxi":"10.0"}
+
+New (do not use this)
+{"lat" : "47.50", "longi" : "-93.45", "wsmax" : "95.", "wsmin" : "2.0", "LAIMAX" : "5.3", "LAIMIN" : "0.3", "rdepth" : "150", "Rootmax" : "500", "Stemmax" : "1000", "SapR" : "1", "SapS" : "0.2","SLA" : "34.2274", "GLmax" : "44.3078", "GRmax" : "18.6138", "Gsmax" : "28.7573", "stom_n" : "2", "a1" : "8", "Ds0" : "2000", "Vcmx0" : "41.3127", "extkU" : "0.51", "xfang" : "0","alpha" :"0.385", "Tau_Leaf" : "2.3063", "Tau_Wood" : "183.1198", "Tau_Root" : "1.5259", "Tau_F" : "0.4186", "Tau_C" : "19.8031", "Tau_Micro" : "0.2274", "Tau_SlowSOM" : "753.9883", "Tau_Passive" : "2189.916", "gddonset" : "144.8867", "Q10" : "1.2387", "Rl0" : "25.6444", "Rs0" : "4.8358","Rr0" : "34.4162","r_me" : "0.0905", "Q10_pro" : "14.0091", "kCH4" : "5.0","Omax" : "10", "CH4_thre" : "477.6095", "Tveg" : "0.5326", "Tpro_me" : "10.0", "Toxi" : "10.0"}
+
+
+lat,longi,wsmax,wsmin                  
+LAIMAX,LAIMIN,rdepth,Rootmax,Stemmax
+SapR,SapS,SLA,GLmax,GRmax,Gsmax,stom_n
+a1,Ds0,Vcmx0,extkU,xfang,alpha
+Tau_Leaf,Tau_Wood,Tau_Root,Tau_F,Tau_C
+Tau_Micro,Tau_slowSOM,Tau_Passive
+gddonset, Q10,Rl0,Rs0,Rr0
+r_me,Q10pro,kCH4,Omax,CH4_thre,Tveg,Tpro_me,Toxi
+
+**********************************
+**********************************
+Doing parafile template mannualy right down hear:
+**********************************
+lat longi wsmax wsmin
+{{lat}} {{longi}} {{wsmax}} {{wsmin}}
+LAIMAX LAIMIN rdepth Rootmax Stemmax
+{{LAIMAX}} {{LAIMIN}} {{rdepth}} {{Rootmax}} {{Stemmax}}
+SapR SapS SLA GLmax GRmax Gsmax stom_n
+{{SapR}} {{SapS}} {{SLA}} {{GLmax}} {{GRmax}} {{Gsmax}} {{stom_n}}
+a1 Ds0 Vcmx0 extkU xfang alpha
+{{a1}} {{Ds0}} {{Vcmx0}} {{extkU}} {{xfang}} {{alpha}}
+Tau_Leaf Tau_Wood Tau_Root Tau_F Tau_C Tau_Micro Tau_slowSOM Tau_Passive
+{{Tau_Leaf}} {{Tau_Wood}} {{Tau_Root}} {{Tau_F}} {{Tau_C}} {{Tau_Micro}} {{Tau_slowSOM}} {{Tau_Passive}}
+gddonset Q10 Rl0 Rs0 Rr0
+{{gddonset}} {{Q10}} {{Rl0}} {{Rs0}} {{Rr0}}
+r_me Q10pro kCH4 Omax CH4_thre Tveg Tpro_me Toxi
+{{r_me}} {{Q10pro}} {{kCH4}} {{Omax}} {{CH4_thre}} {{Tveg}} {{Tpro_me}} {{Toxi}}
+
+**********************************
+**********************************
+Doing arguments to run model mannualy right down hear:
+**********************************
+{"lat": "", "longi": "", "wsmax": "", "wsmin": "", "LAIMAX": "", "LAIMIN": "", "rdepth": "", "Rootmax": "", "Stemmax": "", "SapR": "", "SapS": "", "SLA": "", "GLmax": "", "GRmax": "", "Gsmax": "", "stom_n": "", "a1": "", "Ds0": "", "Vcmx0": "", "extkU": "", "xfang": "", "alpha": "", "Tau_Leaf": "", "Tau_Wood": "", "Tau_Root": "", "Tau_F": "", "Tau_C": "","Tau_Micro": "", "Tau_slowSOM": "", "Tau_Passive": "", "gddonset": "", "Q10": "", "Rl0": "", "Rs0": "","Rr0": "", "r_me": "", "Q10pro": "", "kCH4": "", "Omax": "", "CH4_thre": "", "Tveg": "", "Tpro_me": "", "Toxi": ""}
+**********************************
+Filling up some data:
+**********************************
+{"lat": "47.50", "longi": "-93.45", "wsmax": "95.", "wsmin": "2.0", "LAIMAX": "5.3", "LAIMIN": "0.3", "rdepth": "150", "Rootmax": "500", "Stemmax": "1000", "SapR": "1", "SapS": "0.2", "SLA": "34.2274", "GLmax": "44.3075", "GRmax": "18.6138", "Gsmax": "28.7573", "stom_n": "2", "a1": "8", "Ds0": "2000", "Vcmx0": "41.3127", "extkU": "0.51", "xfang": "0", "alpha": "0.385", "Tau_Leaf": "2.306", "Tau_Wood": "183.1198", "Tau_Root": "1.5259", "Tau_F": "0.4186", "Tau_C": "19.8031","Tau_Micro": "0.2274", "Tau_slowSOM": "753.9883", "Tau_Passive": "2189.916", "gddonset": "144.8867", "Q10": "14.0091", "Rl0": "25.6444", "Rs0": "4.8358","Rr0": "34.4162", "r_me": "0.0905", "Q10pro": "14.0091", "kCH4": "5.0", "Omax": "10", "CH4_thre": "477.6095", "Tveg": "0.5326", "Tpro_me": "10.0", "Toxi": "10.0"}
+
