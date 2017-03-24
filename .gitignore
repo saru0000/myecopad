@@ -2,4 +2,5 @@
 !.gitignore
 !/processingfolder
 !/READMEfiles
-!/config/celery/env/lib/python2.7/site-packages/ecopadq/tasks/tasks.py
+#!/config/
+!./config/celery/env/lib/python2.7/site-packages/ecopadq/tasks/**
