@@ -4,3 +4,5 @@
 !/READMEfiles
 #!/config/
 !./config/celery/env/lib/python2.7/site-packages/ecopadq/tasks/**
+!/run/frc_01/source/frc/
+!/run/frc_01/
