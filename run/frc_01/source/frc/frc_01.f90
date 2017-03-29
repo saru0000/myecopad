@@ -146,8 +146,8 @@ call getarg(2,climatefile)
 !COMMENT Recive ERROR from getarg(3,w..)  At line 4371 of file /source/frc_01.f90 (unit = 111, file = 'fort.111')
 !call getarg(3,watertablefile)
     watertablefile='./input/f2_SPRUCE_Water_Table_Level_2011-2014.txt'
-!call getarg(4,snowdepthfile)
-    snowdepthfile='./input/f3_SPRUCE_Snow_Depth_2011-2014.txt'
+call getarg(3,snowdepthfile)
+!    snowdepthfile='./input/f3_SPRUCE_Snow_Depth_2011-2014.txt'
        
     call Getclimate(year_seq,doy_seq,hour_seq,          &
     &   forcing_data,climatefile,lines,yr_length)

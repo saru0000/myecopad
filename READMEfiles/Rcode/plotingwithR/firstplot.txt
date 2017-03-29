@@ -1,0 +1,6 @@
+library('ggplot2')
+simusnowdaily <- read.table(file = 'inputdata/Simu_snow_daily000.txt')
+
+simusnowdaily <- read.table(file = 'inputdata/Simu_snow_daily000.txt', header = FALSE, sep =",", quote = "", dec = ".", row.names = NULL, col.names = c('day','snow','3'))
+
+ggplot(data = simusnowdaily, aes(x = day, y = snow)) +geom_line()
