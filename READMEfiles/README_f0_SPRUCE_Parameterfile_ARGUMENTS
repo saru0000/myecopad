@@ -14,8 +14,9 @@
     read(10,11)commts
     read(10,*)r_me,Q10pro,kCH4,Omax,CH4_thre,Tveg,Tpro_me,Toxi 
 
-
-
+*************************** CMD FOR RUN INSIDE DOCKER CONTAINER
+./int_forcast ./input/f0_SPRUCE_parameterfile.txt ./input/f1_EM1forcing2011-2014.txt ./input/f2_SPRUCE_Water_Table.txt ./input/f3_SPRUCE_Snow_Depth.txt ./input/f4_obs_SPRUCE.txt ./input/f5_SPRUCE_hummock_toplayer.txt ./input/f6_SPRUCE_soilt.txt ./input/f7_daily_soilt_2011-2014.txt ./input/f8_daily_watertable_2011-2014.txt ./input/f9_obs_CH4_for_MEMCMC.txt /data
+***************************
 
 
 New (do not use this)
