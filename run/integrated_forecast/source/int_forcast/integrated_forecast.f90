@@ -581,7 +581,8 @@ endif
                 CALL random_number(r)
                 if(r.gt.0.95)then
                     k3=k3+1
-                    write(outfile,"(A21,I3.3,A4)") trim(outdir), "/Simu_dailyflux",k3,".txt"
+                    write(outfile,"(A21,I3.3,A4)") "/data/Simu_dailyflux",k3,".txt"
+!write(outfile,"(A5, A15,I3.3,A4)") trim(outdir), "/Simu_dailyflux",k3,".txt"
                     outfile=trim(outfile)
                     open(62,file=outfile)
                     do i=1,1461
@@ -590,7 +591,7 @@ endif
 602                 format((i7),",",12(f15.4,","))
                     close(62)
 					
-                    write(outfile,"(A20,I3.3,A4)") trim(outdir), "/Simu_dailyCH4",k3,".txt"
+                    write(outfile,"(A20,I3.3,A4)") "/output/Simu_dailyCH4",k3,".txt"
                     outfile=trim(outfile)
                     open(664,file=outfile)
 
@@ -599,7 +600,7 @@ endif
                     enddo
 604                 format((i7),",",6(f15.4,","))
                     
-                    write(outfile,"(A21,I3.3,A4)") trim(outdir), "/Simu_soilwater",k3,".txt"
+                    write(outfile,"(A21,I3.3,A4)") "/output/Simu_soilwater",k3,".txt"
                     outfile=trim(outfile)
                     open(63,file=outfile)
                     do i=1,35040
@@ -608,7 +609,7 @@ endif
 603                 format((i7),",",10(f15.4,","))
                     close(63)
                     
-                    write(outfile,"(A26,I3.3,A4)") trim(outdir), "/Simu_soiltemp_daily",k3,".txt"
+                    write(outfile,"(A26,I3.3,A4)") "/output/Simu_soiltemp_daily",k3,".txt"
                     outfile=trim(outfile)
                     write(*,*)'outfile',outfile
                     open(633,file=outfile)
@@ -617,7 +618,7 @@ endif
                     enddo
                     close(633)
                     
-                    write(outfile,"(A21,I3.3,A4)") trim(outdir), "/Simu_ice_daily",k3,".txt"
+                    write(outfile,"(A21,I3.3,A4)") "/output/Simu_ice_daily",k3,".txt"
                     outfile=trim(outfile)
                     write(*,*)'outfile',outfile
                     open(6633,file=outfile)
@@ -626,7 +627,7 @@ endif
                     enddo
                     close(6633)
                     					
-		   write(outfile,"(A27,I3.3,A4)") trim(outdir), "/Simu_dailywatertable",k3,".txt"
+		   write(outfile,"(A27,I3.3,A4)") "/output/Simu_dailywatertable",k3,".txt"
                     outfile=trim(outfile)
                     write(*,*)'outfile',outfile
                     open(6333,file=outfile)
@@ -635,7 +636,7 @@ endif
                     enddo
                     close(6333)
                     
-                   write(outfile,"(A21,I3.3,A4)") trim(outdir), "/Simu_dailysnowdepth",k3,".txt"
+                   write(outfile,"(A21,I3.3,A4)") "/output/Simu_dailysnowdepth",k3,".txt"
                     outfile=trim(outfile)
                     write(*,*)'outfile',outfile
                     open(63333,file=outfile)
@@ -1566,9 +1567,9 @@ endif
          enddo            !end of simulations multiple years
 call getarg(11,outdir)         
          if(MCMC.ne.1)then   
-         write(outfile,"(A21,I3.3,A4)") "/data/Simu_dailyflux",num,".txt"
+!        write(outfile,"(A21,I3.3,A4)") "/data/Simu_dailyflux",num,".txt"
       
- !write(outfile,"(A120,A21,I3.3,A4)") trim(outdir), "/Simu_dailyflux",num,".txt"
+write(outfile,"(A5,A15,I3.3,A4)") trim(outdir), "/Simu_dailyflux",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(62,file=outfile)
@@ -1578,7 +1579,8 @@ call getarg(11,outdir)
          close(62)  
 		 
          !******* added for MEMCMC output files, same format as above ********
-         write(outfile,"(A20,I3.3,A4)") "/data/Simu_dailyCH4",num,".txt"
+ !        write(outfile,"(A25,I3.3,A4)") "/data/Simu_dailyCH4",num,".txt"
+write(outfile,"(A5,A14,I3.3,A4)") trim(outdir), "/Simu_dailyCH4",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(664,file=outfile)
@@ -1587,7 +1589,8 @@ call getarg(11,outdir)
              enddo         
          close (664)
           
-         write(outfile,"(A26,I3.3,A4)") "/data/Simu_soiltemp_daily",num,".txt"
+!         write(outfile,"(A26,I3.3,A4)") "/data/Simu_soiltemp_daily",num,".txt"
+write(outfile,"(A5,A20,I3.3,A4)") trim(outdir), "/Simu_soiltemp_daily",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(63,file=outfile)
@@ -1595,8 +1598,9 @@ call getarg(11,outdir)
              write(63,603)i,(Simu_dailysoilt(j,i),j=1,10)
          enddo
          close(63)
-         
-         write(outfile,"(A28,I3.3,A4)") "/data/Simu_watertable_daily",num,".txt"
+
+!         write(outfile,"(A28,I3.3,A4)") "/data/Simu_watertable_daily",num,".txt"
+write(outfile,"(A5,A22,I3.3,A4)") trim(outdir), "/Simu_watertable_daily",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(6333,file=outfile)
@@ -1604,8 +1608,9 @@ call getarg(11,outdir)
              write(6333,603)i,(Simu_dailywatertable(j,i),j=1,1)
          enddo
          close(6333)
-                                 
-         write(outfile,"(A21,I3.3,A4)") "/data/Simu_ice_daily",num,".txt"
+ 
+!         write(outfile,"(A21,I3.3,A4)") "/data/Simu_ice_daily",num,".txt"
+write(outfile,"(A5,A15,I3.3,A4)") trim(outdir), "/Simu_ice_daily",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(6633,file=outfile)
@@ -1614,7 +1619,8 @@ call getarg(11,outdir)
          enddo
          close(6633)
          
-         write(outfile,"(A22,I3.3,A4)") "/data/Simu_snow_daily",num,".txt"
+!         write(outfile,"(A22,I3.3,A4)") "/data/Simu_snow_daily",num,".txt"
+write(outfile,"(A5, A16,I3.3,A4)") trim(outdir), "/Simu_snow_daily",num,".txt"
          outfile=trim(outfile)
          outfile=adjustl(outfile)
          open(663333,file=outfile)
