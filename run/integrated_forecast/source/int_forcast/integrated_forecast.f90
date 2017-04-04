@@ -581,7 +581,7 @@ endif
                 CALL random_number(r)
                 if(r.gt.0.95)then
                     k3=k3+1
-                    write(outfile,"(A21,I3.3,A4)") "/data/Simu_dailyflux",k3,".txt"
+                    write(outfile,"(A21,I3.3,A4)") "/output/Simu_dailyflux",k3,".txt"
 !write(outfile,"(A5, A15,I3.3,A4)") trim(outdir), "/Simu_dailyflux",k3,".txt"
                     outfile=trim(outfile)
                     open(62,file=outfile)
